@@ -1,0 +1,5 @@
+https://dash.plotly.com/deployment
+
+python3 -m virtualenv venv
+$ pip install dash
+$ pip install gunicorn

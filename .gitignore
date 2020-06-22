@@ -1,0 +1,5 @@
+venv
+venv_copy
+*.pyc
+.DS_Store
+.env
