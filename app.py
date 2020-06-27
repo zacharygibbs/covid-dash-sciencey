@@ -19,6 +19,7 @@ def get_new_data():
     global df, dfstate, todaystring
     today = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
     todaystring = today.strftime("%m-%d-%Y %H:%M:%S")
+    todaystring = todaystring + 'Central'
     #loadtime = datetime.now()
     #loadtime = "%s Central Time"%(loadtime.astimezone(pytz.timezone('US/Central')).isoformat())
 
