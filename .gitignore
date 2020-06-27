@@ -4,3 +4,4 @@ venv_copy
 .DS_Store
 .env
 app.py_copy
+*.csv
