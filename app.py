@@ -189,7 +189,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                         'layout': go.Layout(
                                                             xaxis={},
                                                             yaxis={'type':'linear'},
-                                                            height=400,width=1200,
+                                                            height=400,
                                                             margin={'l': 40, 'b': 40, 't': 10, 'r': 10},
                                                             legend={'x': 0, 'y': 1},
                                                             hovermode='y unified'
@@ -211,7 +211,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                                 name=i
                                                             ) for index,i in enumerate(state0)                
                                                             ],
-                                                            'layout': { 'height':400,'width':1200,
+                                                            'layout': { 'height':400,
                                                                 'plot_bgcolor': colors['background'],
                                                                 'paper_bgcolor': colors['background'],
                                                                 'font': {
