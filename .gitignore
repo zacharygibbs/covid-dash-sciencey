@@ -3,3 +3,4 @@ venv_copy
 *.pyc
 .DS_Store
 .env
+app.py_copy

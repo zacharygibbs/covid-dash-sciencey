@@ -5,14 +5,22 @@ from dash.dependencies import Input, Output
 import flask
 import plotly.graph_objs as go
 import pandas as pd
-import datetime, time
+import datetime, time, pytz
 import numpy as np
 import os
 from dash.exceptions import PreventUpdate
 
+
+global df, dfstate
+global todaystring
+
+
 def get_new_data():
-    today = datetime.date.today()
-    todaystring = today.strftime("%d-%m-%Y")
+    global df, dfstate, todaystring
+    today = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
+    todaystring = today.strftime("%m-%d-%Y %H:%M:%S")
+    #loadtime = datetime.now()
+    #loadtime = "%s Central Time"%(loadtime.astimezone(pytz.timezone('US/Central')).isoformat())
 
     basepath = None
 
@@ -68,7 +76,7 @@ def get_chartdata(states,counties,stat='cases'):
         return [[],[]]
 
 ##Set initial state of dashboard
-state0 = ['Oklahoma','Colorado','Arizona']
+state0 = ['Oklahoma','Texas','Colorado','Arizona']
 
 dfstate_filtered = dfstate[(dfstate['date']==np.max(dfstate.date))]
 dfstate_sorted = dfstate_filtered.sort_values('cases',ascending=False)
@@ -90,6 +98,8 @@ colors = {
     'background': '#FFFFFFF',
     'text': '#000000'
 }
+
+
 app.layout = html.Div(style={'backgroundColor': colors['background']}, 
                 children=[ html.Div(className='row', children =[
                                                                 html.H1(
@@ -147,17 +157,14 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                     ],
                                                     value='linear'
                                                 ),
-                                                    # html.Div([
-                                                    #     dcc.DatePickerRange(id='date_filter',
-
-                                                    #                         start_date=sample_df['datetime'].min(),
-                                                    #                         end_date=sample_df['datetime'].max(),
-                                                    #                         max_date_allowed=sample_df['datetime'].max(),
-
-                                                    #                         initial_visible_month=pd.datetime(2019, 5, 10)
-                                                    #                         ),
-                                                    # ], id='container_date_filter'),
-                                            ]),
+                                            
+                                                
+                                        	html.Div(id='date-labelouter',children=[
+                                                    html.Div(children=['Zach Gibbs: ', dcc.Link('Cool Sciencey', href='http://www.coolsciencey.com')]),
+                                                    html.Div(children=['Data Source: ',dcc.Link('NY Times covid-19-data on GitHub',href='http://github.com/nytimes/covid-19-data/')]),
+                                                    html.Div(id='date-label',children=['Data Last Updated: %s'%(todaystring)])
+                                                    ])
+                                                ]),
                                         html.Div(className='nine columns', 
                                             children = [
                                                 html.Div([
@@ -181,7 +188,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                         'layout': go.Layout(
                                                             xaxis={},
                                                             yaxis={'type':'linear'},
-                                                            height=400,
+                                                            height=400,width=1200,
                                                             margin={'l': 40, 'b': 40, 't': 10, 'r': 10},
                                                             legend={'x': 0, 'y': 1},
                                                             hovermode='y unified'
@@ -203,7 +210,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                                 name=i
                                                             ) for index,i in enumerate(state0)                
                                                             ],
-                                                            'layout': { 'height':400,
+                                                            'layout': { 'height':400,'width':1200,
                                                                 'plot_bgcolor': colors['background'],
                                                                 'paper_bgcolor': colors['background'],
                                                                 'font': {
@@ -215,15 +222,14 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                     ])
                                                 ]) 
 		]),
-	dcc.Interval(id='interval-component',interval=1000*60*1, n_intervals=0),
-	html.Label(id='date-label',children=['datelabel:,%i'%(0)])
+	dcc.Interval(id='interval-component',interval=1000*60*60, n_intervals=0),
 ])
 
 @app.callback([Output('date-label','children')],
 		[Input('interval-component', 'n_intervals')])
 def interval_update(numint):
     get_new_data()
-    return ['datelabel:,%i'%(numint)]
+    return ['Data Last Updated: %s'%(todaystring)]
 
 @app.callback(
     [Output('county_dropdown','options'), Output('county_dropdown','value')],
@@ -310,63 +316,18 @@ def update_charts(stat,scale,statevals,countyvals):
                  'yaxis':{'type':scale}
                     }
                 }
-    #print(figure)
     return figure1, figure2
 
 
-# @app.callback(
-#     Output('Daily Cases','figure'),
-#     [Input('radio-items-stat','value'), 
-#     Input('radio-items-scale','value'), 
-#     Input('state_dropdown','value'), 
-#     Input('county_dropdown','value')]
-#     )
-# def update_countydropdown(stat,scale,statevals,countyvals):
-#     xs,ys = get_chartdata(statevals, countyvals,stat)
-#     dys = [np.diff(i) for i in y0]
-#     if countyvals:
-#         chart_text = ['%s-%s'%(statevals[0],county) for county in countyvals]
-#     else:
-#         chart_text = statevals
-#     #print(chart_text)
-#     #print(xs,ys)
-#     figure={
-#             'data': [
-#             go.Bar(
-#                 x=xs[index][:-1],
-#                 y=dys[index],
-#                 text=chart_text[index],
-#                 opacity=0.8,
-#                 name=i
-#             ) for index,i in enumerate(chart_text)                
-#             ],
-#             'layout': { 'height':400,
-#                 'plot_bgcolor': colors['background'],
-#                 'paper_bgcolor': colors['background'],
-#                 'font': {'color': colors['text']},
-#                  'yaxis':{'type':scale}
-#                     }
-#                 }
-#     #print(figure)
-#     time.sleep(0.25)
-#     return figure
-
-
-'stat-scatter'
-'Daily Cases'
-
-#'county_dropdown', 'options'
-#
 
 app.css.config.serve_locally = False
 app.css.append_css({
     'external_url': 'https://codepen.io/chriddyp/pen/bWLwgP.css'
 })
 
-#dcc._css_dist[0]['relative_package_path'].append('bWLwgP.css')
 
 
 
 if __name__ == '__main__':
-    #app.run_server(debug=False,port=8080,host='0.0.0.0')
+    #app.run_server(debug=True,port=8080,host='0.0.0.0')
     app.run_server(debug=False)
