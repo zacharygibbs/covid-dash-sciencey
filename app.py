@@ -14,6 +14,9 @@ from dash.exceptions import PreventUpdate
 global df, dfstate
 global todaystring
 
+county_pop_data = pd.read_csv('county_pops_census2019.csv')
+
+
 
 def get_new_data():
     global df, dfstate, todaystring
@@ -28,9 +31,12 @@ def get_new_data():
     ## handle file download
     files = [i for i in os.listdir(basepath) if (('.csv' in i) and ('counties' in i))]
 
-    if np.any([todaystring in file for file in files]):
+    todaystring_short = today.strftime("%m-%d-%Y %H")
+    
+    if np.any(['us-counties' + todaystring_short in file for file in files]):
         print('Loading todays county data from memory')
-        df = pd.read_csv('us-counties'+todaystring+'.csv')
+        todaystring = files[['us-counties' +todaystring_short in file for file in files].index(True)]
+        df = pd.read_csv(todaystring)
     else:    
         print("Downloading New Data for us-counties_%s; deleting old csv data thats stored"%(todaystring))
         df = pd.read_csv(
@@ -41,9 +47,10 @@ def get_new_data():
 
     files = [i for i in os.listdir(basepath) if (('.csv' in i) and ('states' in i))]
 
-    if np.any([todaystring in file for file in files]):
+    if np.any(['us-states' + todaystring_short in file for file in files]):
         print('Loading todays state data from memory')
-        dfstate = pd.read_csv('us-states'+todaystring+'.csv')
+        todaystring = files[['us-states' + todaystring_short in file for file in files].index(True)]
+        dfstate = pd.read_csv(todaystring)
     else:    
         print("Downloading New Data for us-states_%s; deleting old csv data thats stored"%(todaystring))
         dfstate = pd.read_csv(
@@ -54,37 +61,48 @@ def get_new_data():
     return df, dfstate
 df, dfstate = get_new_data()
 #statedf = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
-def get_chartdata1(state,county,stat='cases'):
+def get_chartdata1(state,county,stat='cases', popnorm=False):
     if county:
         x = df.date[(df['state'] == state) & (df['county']==county)]
-        y = df[(df['state'] == state) & (df['county']==county)][stat]
+        if popnorm:
+            countypop = county_pop_data[(county_pop_data['state']==state) & (county_pop_data['county']==county)]['Pop'].sum()
+            y = df[(df['state'] == state) & (df['county']==county)][stat] / countypop * 1000
+        else:
+            y = df[(df['state'] == state) & (df['county']==county)][stat]
     else:
+        #statepop_states = pd.unique(county_pop_data['state'])
+        
         x = dfstate.date[dfstate['state'] == state]
-        y = dfstate[dfstate['state'] == state][stat]
+        if popnorm:
+            statepop = county_pop_data[county_pop_data['state']==state]['Pop'].sum()
+            y = dfstate[dfstate['state'] == state][stat] / statepop * 1000
+        else:
+            y = dfstate[dfstate['state'] == state][stat]
     return x,y
-def get_chartdata(states,counties,stat='cases'):
+def get_chartdata(states,counties,stat='cases',popnorm=False):
     output = []
     #can do either states only or counties within a single state, but not comparing county from one state to county to another; you'd need more rigorous restrictions on input
+    
     for state in states:
         if counties:
             for county in counties:
-                output.append(get_chartdata1(state,county,stat))
+                output.append(get_chartdata1(state,county,stat, popnorm))
         else:
-            output.append(get_chartdata1(state,None,stat))
+            output.append(get_chartdata1(state,None,stat, popnorm))
     if len(states)>0:
         return list(zip(*output))
     else:
         return [[],[]]
 
 ##Set initial state of dashboard
-state0 = ['Oklahoma','Texas','Colorado','Arizona']
+state0 = ['Oklahoma']
 
 dfstate_filtered = dfstate[(dfstate['date']==np.max(dfstate.date))]
 dfstate_sorted = dfstate_filtered.sort_values('cases',ascending=False)
 state0_labels = dfstate_sorted.state
 cases0_labels = dfstate_sorted.cases
 
-county0 = []
+county0 = ['Washington']
 stat0='cases'
 x0, y0 = get_chartdata(state0,county0,stat0)
 #x0, y0 = list(zip(*result))
@@ -110,7 +128,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                                         'color': colors['text']
                                                                     }
                                                                 ),
-                                                                html.Div(children='Per State, County etc.', style={
+                                                                html.Div(children='Per State, County, and optionally on a Pop Normalized (Per 1000 people) basis etc.', style={
                                                                     'textAlign': 'center',
                                                                     'color': colors['text']
                                                                         })]),
@@ -148,6 +166,14 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                     ],
                                                     value=stat0
                                                 ),
+                                                dcc.Checklist(
+                                                        id='checkbox_7davg',
+                                                        options=[
+                                                            {'label': '7 day average', 'value': '7d'},
+                                                             {'label':'Normalize Per 1000 Population', 'value':'popnorm'}],
+                                                        value=['7d']
+                                                    )  
+                                                ,
 
                                                 html.Label('Log/Linear?'),
                                                 dcc.RadioItems(
@@ -160,9 +186,9 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                 ),
                                             
                                                 
-                                        	html.Div(id='date-labelouter',children=[
-                                                    html.Div(children=['Zach Gibbs: ', dcc.Link('Cool Sciencey', href='http://www.coolsciencey.com')]),
-                                                    html.Div(children=['Data Source: ',dcc.Link('NY Times covid-19-data on GitHub',href='http://github.com/nytimes/covid-19-data/')]),
+                                            html.Div(id='date-labelouter',children=[
+                                                    html.Div(children=['Zach Gibbs: ', html.A(children='Cool Sciencey', href="http://www.coolsciencey.com",target="_blank")]),
+                                                    html.Div(children=['Data Source: ',html.A(children='NY Times covid-19-data on GitHub',href='http://github.com/nytimes/covid-19-data/',target='_blank')]),
                                                     html.Div(id='date-label',children=['Data Last Updated: %s'%(todaystring)])
                                                     ])
                                                 ]),
@@ -173,7 +199,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                     id='stat-scatter',
                                                     figure={
                                                         'data': [
-    	                                                        go.Scatter(
+                                                                go.Scatter(
                                                                 x=x0[index],
                                                                 y=y0[index],
                                                                 text=state0[index],
@@ -222,12 +248,12 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                             )
                                                     ])
                                                 ]) 
-		]),
-	dcc.Interval(id='interval-component',interval=1000*60*60, n_intervals=0),
+        ]),
+    dcc.Interval(id='interval-component',interval=1000*60*60, n_intervals=0),
 ])
 
 @app.callback([Output('date-label','children')],
-		[Input('interval-component', 'n_intervals')])
+        [Input('interval-component', 'n_intervals')])
 def interval_update(numint):
     get_new_data()
     return ['Data Last Updated: %s'%(todaystring)]
@@ -264,18 +290,43 @@ def update_countydropdownplaceholder(statevals):
     [Input('radio-items-stat','value'), 
     Input('radio-items-scale','value'), 
     Input('state_dropdown','value'), 
-    Input('county_dropdown','value')]
+    Input('county_dropdown','value'),
+    Input('checkbox_7davg','value')]
     )
-def update_charts(stat,scale,statevals,countyvals):
-    xs,ys = get_chartdata(statevals, countyvals,stat)
+def update_charts(stat,scale,statevals,countyvals, sevenday):
+    if 'popnorm' in sevenday:
+            popnorm = True
+    else:
+            popnorm = False
+    xs,ys = get_chartdata(statevals, countyvals,stat,popnorm)
+    
     dys = [np.diff(i) for i in ys]  
     if countyvals:
         if statevals:
             chart_text = ['%s-%s'%(statevals[0],county) for county in countyvals]
+
         else:
             return {'data':[]}, {'data':[]}
     else:
         chart_text = statevals
+                                 
+    rolling_avg = [pd.Series(ys[index]).rolling(7).mean() for index,i in enumerate(chart_text)]
+    rolling_avg2 = [list(rolling_avg[index][3:]) + list(rolling_avg[index][3:6]) for index,i in enumerate(chart_text)]
+    rolling_avg_daily = [pd.Series(dys[index]).rolling(7).mean() for index,i in enumerate(chart_text)]
+    rolling_avg_daily2 = [list(rolling_avg_daily[index][3:]) + list(rolling_avg_daily[index][3:6]) for index,i in enumerate(chart_text)]
+    #import pdb;pdb.set_trace()
+    if '7d' in sevenday:
+        add_7dlines1 = [go.Scatter(x=xs[index], y=rolling_avg2[index],text=chart_text[index]+'7dma', mode='lines',name=i) for index,i in enumerate(chart_text)]
+        add_7dlines2 = [go.Scatter(
+                x=xs[index][1:],
+                y=rolling_avg_daily2[index],
+                text=chart_text[index]+'7dma',
+                mode='lines',
+                name=i
+            ) for index,i in enumerate(chart_text) ]
+    else:
+        add_7dlines1=[]
+        add_7dlines2 = []
     figure1={'data': [
                         go.Scatter(
                             x=xs[index],
@@ -289,7 +340,7 @@ def update_charts(stat,scale,statevals,countyvals):
                             },
                             name=i
                         ) for index,i in enumerate(chart_text)
-                    ],
+                    ] + add_7dlines1,
                     'layout': go.Layout(
                         xaxis={},
                         yaxis={'type':scale},
@@ -303,13 +354,14 @@ def update_charts(stat,scale,statevals,countyvals):
     figure2={
             'data': [
             go.Bar(
-                x=xs[index][:-1],
+                x=xs[index][1:],
                 y=dys[index],
                 text=chart_text[index],
                 opacity=0.8,
                 name=i
             ) for index,i in enumerate(chart_text)                
-            ],
+            ]+
+            add_7dlines2,
             'layout': { 'height':400,
                 'plot_bgcolor': colors['background'],
                 'paper_bgcolor': colors['background'],
