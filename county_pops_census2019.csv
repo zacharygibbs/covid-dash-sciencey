@@ -56,7 +56,7 @@ CountyState,Pop,county,state
 "Pike County, Alabama",33114,Pike,Alabama
 "Randolph County, Alabama",22722,Randolph,Alabama
 "Russell County, Alabama",57961,Russell,Alabama
-"St. Clair County, Alabama",89512,St.Clair,Alabama
+"St. Clair County, Alabama",89512,St. Clair,Alabama
 "Shelby County, Alabama",217702,Shelby,Alabama
 "Sumter County, Alabama",12427,Sumter,Alabama
 "Talladega County, Alabama",79978,Talladega,Alabama
@@ -66,48 +66,48 @@ CountyState,Pop,county,state
 "Washington County, Alabama",16326,Washington,Alabama
 "Wilcox County, Alabama",10373,Wilcox,Alabama
 "Winston County, Alabama",23629,Winston,Alabama
-"Aleutians East Borough, Alaska",3337,#VALUE!,Alaska
-"Aleutians West Census Area, Alaska",5634,#VALUE!,Alaska
-"Anchorage Municipality, Alaska",288000,#VALUE!,Alaska
-"Bethel Census Area, Alaska",18386,#VALUE!,Alaska
-"Bristol Bay Borough, Alaska",836,#VALUE!,Alaska
-"Denali Borough, Alaska",2097,#VALUE!,Alaska
-"Dillingham Census Area, Alaska",4916,#VALUE!,Alaska
-"Fairbanks North Star Borough, Alaska",96849,#VALUE!,Alaska
-"Haines Borough, Alaska",2530,#VALUE!,Alaska
-"Hoonah-Angoon Census Area, Alaska",2148,#VALUE!,Alaska
-"Juneau City and Borough, Alaska",31974,#VALUE!,Alaska
-"Kenai Peninsula Borough, Alaska",58708,#VALUE!,Alaska
-"Ketchikan Gateway Borough, Alaska",13901,#VALUE!,Alaska
-"Kodiak Island Borough, Alaska",12998,#VALUE!,Alaska
-"Kusilvak Census Area, Alaska",8314,#VALUE!,Alaska
-"Lake and Peninsula Borough, Alaska",1592,#VALUE!,Alaska
-"Matanuska-Susitna Borough, Alaska",108317,#VALUE!,Alaska
-"Nome Census Area, Alaska",10004,#VALUE!,Alaska
-"North Slope Borough, Alaska",9832,#VALUE!,Alaska
-"Northwest Arctic Borough, Alaska",7621,#VALUE!,Alaska
-"Petersburg Borough, Alaska",3266,#VALUE!,Alaska
-"Prince of Wales-Hyder Census Area, Alaska",6203,#VALUE!,Alaska
-"Sitka City and Borough, Alaska",8493,#VALUE!,Alaska
-"Skagway Municipality, Alaska",1183,#VALUE!,Alaska
-"Southeast Fairbanks Census Area, Alaska",6893,#VALUE!,Alaska
-"Valdez-Cordova Census Area, Alaska",9202,#VALUE!,Alaska
-"Wrangell City and Borough, Alaska",2502,#VALUE!,Alaska
-"Yakutat City and Borough, Alaska",579,#VALUE!,Alaska
-"Yukon-Koyukuk Census Area, Alaska",5230,#VALUE!,Alaska
+"Aleutians East Borough, Alaska",3337,Aleutians East Borough ,Alaska
+"Aleutians West Census Area, Alaska",5634,Aleutians West Census Area ,Alaska
+"Anchorage Municipality, Alaska",288000,Anchorage Municipality ,Alaska
+"Bethel Census Area, Alaska",18386,Bethel Census Area ,Alaska
+"Bristol Bay Borough, Alaska",836,Bristol Bay Borough ,Alaska
+"Denali Borough, Alaska",2097,Denali Borough ,Alaska
+"Dillingham Census Area, Alaska",4916,Dillingham Census Area ,Alaska
+"Fairbanks North Star Borough, Alaska",96849,Fairbanks North Star Borough ,Alaska
+"Haines Borough, Alaska",2530,Haines Borough ,Alaska
+"Hoonah-Angoon Census Area, Alaska",2148,Hoonah-Angoon Census Area ,Alaska
+"Juneau City and Borough, Alaska",31974,Juneau City and Borough ,Alaska
+"Kenai Peninsula Borough, Alaska",58708,Kenai Peninsula Borough ,Alaska
+"Ketchikan Gateway Borough, Alaska",13901,Ketchikan Gateway Borough ,Alaska
+"Kodiak Island Borough, Alaska",12998,Kodiak Island Borough ,Alaska
+"Kusilvak Census Area, Alaska",8314,Kusilvak Census Area ,Alaska
+"Lake and Peninsula Borough, Alaska",1592,Lake and Peninsula Borough ,Alaska
+"Matanuska-Susitna Borough, Alaska",108317,Matanuska-Susitna Borough ,Alaska
+"Nome Census Area, Alaska",10004,Nome Census Area ,Alaska
+"North Slope Borough, Alaska",9832,North Slope Borough ,Alaska
+"Northwest Arctic Borough, Alaska",7621,Northwest Arctic Borough ,Alaska
+"Petersburg Borough, Alaska",3266,Petersburg Borough ,Alaska
+"Prince of Wales-Hyder Census Area, Alaska",6203,Prince of Wales-Hyder Census Area ,Alaska
+"Sitka City and Borough, Alaska",8493,Sitka City and Borough ,Alaska
+"Skagway Municipality, Alaska",1183,Skagway Municipality ,Alaska
+"Southeast Fairbanks Census Area, Alaska",6893,Southeast Fairbanks Census Area ,Alaska
+"Valdez-Cordova Census Area, Alaska",9202,Valdez-Cordova Census Area ,Alaska
+"Wrangell City and Borough, Alaska",2502,Wrangell City and Borough ,Alaska
+"Yakutat City and Borough, Alaska",579,Yakutat City and Borough ,Alaska
+"Yukon-Koyukuk Census Area, Alaska",5230,Yukon-Koyukuk Census Area ,Alaska
 "Apache County, Arizona",71887,Apache,Arizona
 "Cochise County, Arizona",125922,Cochise,Arizona
 "Coconino County, Arizona",143476,Coconino,Arizona
 "Gila County, Arizona",54018,Gila,Arizona
 "Graham County, Arizona",38837,Graham,Arizona
 "Greenlee County, Arizona",9498,Greenlee,Arizona
-"La Paz County, Arizona",21108,LaPaz,Arizona
+"La Paz County, Arizona",21108,La Paz,Arizona
 "Maricopa County, Arizona",4485414,Maricopa,Arizona
 "Mohave County, Arizona",212181,Mohave,Arizona
 "Navajo County, Arizona",110924,Navajo,Arizona
 "Pima County, Arizona",1047279,Pima,Arizona
 "Pinal County, Arizona",462789,Pinal,Arizona
-"Santa Cruz County, Arizona",46498,SantaCruz,Arizona
+"Santa Cruz County, Arizona",46498,Santa Cruz,Arizona
 "Yavapai County, Arizona",235099,Yavapai,Arizona
 "Yuma County, Arizona",213787,Yuma,Arizona
 "Arkansas County, Arkansas",17486,Arkansas,Arkansas
@@ -139,7 +139,7 @@ CountyState,Pop,county,state
 "Grant County, Arkansas",18265,Grant,Arkansas
 "Greene County, Arkansas",45325,Greene,Arkansas
 "Hempstead County, Arkansas",21532,Hempstead,Arkansas
-"Hot Spring County, Arkansas",33771,HotSpring,Arkansas
+"Hot Spring County, Arkansas",33771,Hot Spring,Arkansas
 "Howard County, Arkansas",13202,Howard,Arkansas
 "Independence County, Arkansas",37825,Independence,Arkansas
 "Izard County, Arkansas",13629,Izard,Arkansas
@@ -150,7 +150,7 @@ CountyState,Pop,county,state
 "Lawrence County, Arkansas",16406,Lawrence,Arkansas
 "Lee County, Arkansas",8857,Lee,Arkansas
 "Lincoln County, Arkansas",13024,Lincoln,Arkansas
-"Little River County, Arkansas",12259,LittleRiver,Arkansas
+"Little River County, Arkansas",12259,Little River,Arkansas
 "Logan County, Arkansas",21466,Logan,Arkansas
 "Lonoke County, Arkansas",73309,Lonoke,Arkansas
 "Madison County, Arkansas",16576,Madison,Arkansas
@@ -171,7 +171,7 @@ CountyState,Pop,county,state
 "Prairie County, Arkansas",8062,Prairie,Arkansas
 "Pulaski County, Arkansas",391911,Pulaski,Arkansas
 "Randolph County, Arkansas",17958,Randolph,Arkansas
-"St. Francis County, Arkansas",24994,St.Francis,Arkansas
+"St. Francis County, Arkansas",24994,St. Francis,Arkansas
 "Saline County, Arkansas",122437,Saline,Arkansas
 "Scott County, Arkansas",10281,Scott,Arkansas
 "Searcy County, Arkansas",7881,Searcy,Arkansas
@@ -180,7 +180,7 @@ CountyState,Pop,county,state
 "Sharp County, Arkansas",17442,Sharp,Arkansas
 "Stone County, Arkansas",12506,Stone,Arkansas
 "Union County, Arkansas",38682,Union,Arkansas
-"Van Buren County, Arkansas",16545,VanBuren,Arkansas
+"Van Buren County, Arkansas",16545,Van Buren,Arkansas
 "Washington County, Arkansas",239187,Washington,Arkansas
 "White County, Arkansas",78753,White,Arkansas
 "Woodruff County, Arkansas",6320,Woodruff,Arkansas
@@ -191,9 +191,9 @@ CountyState,Pop,county,state
 "Butte County, California",219186,Butte,California
 "Calaveras County, California",45905,Calaveras,California
 "Colusa County, California",21547,Colusa,California
-"Contra Costa County, California",1153526,ContraCosta,California
-"Del Norte County, California",27812,DelNorte,California
-"El Dorado County, California",192843,ElDorado,California
+"Contra Costa County, California",1153526,Contra Costa,California
+"Del Norte County, California",27812,Del Norte,California
+"El Dorado County, California",192843,El Dorado,California
 "Fresno County, California",999101,Fresno,California
 "Glenn County, California",28393,Glenn,California
 "Humboldt County, California",135558,Humboldt,California
@@ -203,7 +203,7 @@ CountyState,Pop,county,state
 "Kings County, California",152940,Kings,California
 "Lake County, California",64386,Lake,California
 "Lassen County, California",30573,Lassen,California
-"Los Angeles County, California",10039107,LosAngeles,California
+"Los Angeles County, California",10039107,Los Angeles,California
 "Madera County, California",157327,Madera,California
 "Marin County, California",258826,Marin,California
 "Mariposa County, California",17203,Mariposa,California
@@ -219,16 +219,16 @@ CountyState,Pop,county,state
 "Plumas County, California",18807,Plumas,California
 "Riverside County, California",2470546,Riverside,California
 "Sacramento County, California",1552058,Sacramento,California
-"San Benito County, California",62808,SanBenito,California
-"San Bernardino County, California",2180085,SanBernardino,California
-"San Diego County, California",3338330,SanDiego,California
-"San Francisco County, California",881549,SanFrancisco,California
-"San Joaquin County, California",762148,SanJoaquin,California
-"San Luis Obispo County, California",283111,SanLuisObispo,California
-"San Mateo County, California",766573,SanMateo,California
-"Santa Barbara County, California",446499,SantaBarbara,California
-"Santa Clara County, California",1927852,SantaClara,California
-"Santa Cruz County, California",273213,SantaCruz,California
+"San Benito County, California",62808,San Benito,California
+"San Bernardino County, California",2180085,San Bernardino,California
+"San Diego County, California",3338330,San Diego,California
+"San Francisco County, California",881549,San Francisco,California
+"San Joaquin County, California",762148,San Joaquin,California
+"San Luis Obispo County, California",283111,San Luis Obispo,California
+"San Mateo County, California",766573,San Mateo,California
+"Santa Barbara County, California",446499,Santa Barbara,California
+"Santa Clara County, California",1927852,Santa Clara,California
+"Santa Cruz County, California",273213,Santa Cruz,California
 "Shasta County, California",180080,Shasta,California
 "Sierra County, California",3005,Sierra,California
 "Siskiyou County, California",43539,Siskiyou,California
@@ -253,7 +253,7 @@ CountyState,Pop,county,state
 "Broomfield County, Colorado",70465,Broomfield,Colorado
 "Chaffee County, Colorado",20356,Chaffee,Colorado
 "Cheyenne County, Colorado",1831,Cheyenne,Colorado
-"Clear Creek County, Colorado",9700,ClearCreek,Colorado
+"Clear Creek County, Colorado",9700,Clear Creek,Colorado
 "Conejos County, Colorado",8205,Conejos,Colorado
 "Costilla County, Colorado",3887,Costilla,Colorado
 "Crowley County, Colorado",6061,Crowley,Colorado
@@ -264,7 +264,7 @@ CountyState,Pop,county,state
 "Douglas County, Colorado",351154,Douglas,Colorado
 "Eagle County, Colorado",55127,Eagle,Colorado
 "Elbert County, Colorado",26729,Elbert,Colorado
-"El Paso County, Colorado",720403,ElPaso,Colorado
+"El Paso County, Colorado",720403,El Paso,Colorado
 "Fremont County, Colorado",47839,Fremont,Colorado
 "Garfield County, Colorado",60061,Garfield,Colorado
 "Gilpin County, Colorado",6243,Gilpin,Colorado
@@ -275,11 +275,11 @@ CountyState,Pop,county,state
 "Jackson County, Colorado",1392,Jackson,Colorado
 "Jefferson County, Colorado",582881,Jefferson,Colorado
 "Kiowa County, Colorado",1406,Kiowa,Colorado
-"Kit Carson County, Colorado",7097,KitCarson,Colorado
+"Kit Carson County, Colorado",7097,Kit Carson,Colorado
 "Lake County, Colorado",8127,Lake,Colorado
-"La Plata County, Colorado",56221,LaPlata,Colorado
+"La Plata County, Colorado",56221,La Plata,Colorado
 "Larimer County, Colorado",356899,Larimer,Colorado
-"Las Animas County, Colorado",14506,LasAnimas,Colorado
+"Las Animas County, Colorado",14506,Las Animas,Colorado
 "Lincoln County, Colorado",5701,Lincoln,Colorado
 "Logan County, Colorado",22409,Logan,Colorado
 "Mesa County, Colorado",154210,Mesa,Colorado
@@ -295,12 +295,12 @@ CountyState,Pop,county,state
 "Pitkin County, Colorado",17767,Pitkin,Colorado
 "Prowers County, Colorado",12172,Prowers,Colorado
 "Pueblo County, Colorado",168424,Pueblo,Colorado
-"Rio Blanco County, Colorado",6324,RioBlanco,Colorado
-"Rio Grande County, Colorado",11267,RioGrande,Colorado
+"Rio Blanco County, Colorado",6324,Rio Blanco,Colorado
+"Rio Grande County, Colorado",11267,Rio Grande,Colorado
 "Routt County, Colorado",25638,Routt,Colorado
 "Saguache County, Colorado",6824,Saguache,Colorado
-"San Juan County, Colorado",728,SanJuan,Colorado
-"San Miguel County, Colorado",8179,SanMiguel,Colorado
+"San Juan County, Colorado",728,San Juan,Colorado
+"San Miguel County, Colorado",8179,San Miguel,Colorado
 "Sedgwick County, Colorado",2248,Sedgwick,Colorado
 "Summit County, Colorado",31011,Summit,Colorado
 "Teller County, Colorado",25388,Teller,Colorado
@@ -311,14 +311,14 @@ CountyState,Pop,county,state
 "Hartford County, Connecticut",891720,Hartford,Connecticut
 "Litchfield County, Connecticut",180333,Litchfield,Connecticut
 "Middlesex County, Connecticut",162436,Middlesex,Connecticut
-"New Haven County, Connecticut",854757,NewHaven,Connecticut
-"New London County, Connecticut",265206,NewLondon,Connecticut
+"New Haven County, Connecticut",854757,New Haven,Connecticut
+"New London County, Connecticut",265206,New London,Connecticut
 "Tolland County, Connecticut",150721,Tolland,Connecticut
 "Windham County, Connecticut",116782,Windham,Connecticut
 "Kent County, Delaware",180786,Kent,Delaware
-"New Castle County, Delaware",558753,NewCastle,Delaware
+"New Castle County, Delaware",558753,New Castle,Delaware
 "Sussex County, Delaware",234225,Sussex,Delaware
-"District of Columbia, District of Columbia",705749,#VALUE!,DistrictofColumbia
+"District of Columbia, District of Columbia",705749,District of Columbia,District of Columbia
 "Alachua County, Florida",269043,Alachua,Florida
 "Baker County, Florida",29210,Baker,Florida
 "Bay County, Florida",174705,Bay,Florida
@@ -348,7 +348,7 @@ CountyState,Pop,county,state
 "Highlands County, Florida",106221,Highlands,Florida
 "Hillsborough County, Florida",1471968,Hillsborough,Florida
 "Holmes County, Florida",19617,Holmes,Florida
-"Indian River County, Florida",159923,IndianRiver,Florida
+"Indian River County, Florida",159923,Indian River,Florida
 "Jackson County, Florida",46414,Jackson,Florida
 "Jefferson County, Florida",14246,Jefferson,Florida
 "Lafayette County, Florida",8422,Lafayette,Florida
@@ -368,14 +368,14 @@ CountyState,Pop,county,state
 "Okeechobee County, Florida",42168,Okeechobee,Florida
 "Orange County, Florida",1393452,Orange,Florida
 "Osceola County, Florida",375751,Osceola,Florida
-"Palm Beach County, Florida",1496770,PalmBeach,Florida
+"Palm Beach County, Florida",1496770,Palm Beach,Florida
 "Pasco County, Florida",553947,Pasco,Florida
 "Pinellas County, Florida",974996,Pinellas,Florida
 "Polk County, Florida",724777,Polk,Florida
 "Putnam County, Florida",74521,Putnam,Florida
-"St. Johns County, Florida",264672,St.Johns,Florida
-"St. Lucie County, Florida",328297,St.Lucie,Florida
-"Santa Rosa County, Florida",184313,SantaRosa,Florida
+"St. Johns County, Florida",264672,St. Johns,Florida
+"St. Lucie County, Florida",328297,St. Lucie,Florida
+"Santa Rosa County, Florida",184313,Santa Rosa,Florida
 "Sarasota County, Florida",433742,Sarasota,Florida
 "Seminole County, Florida",471826,Seminole,Florida
 "Sumter County, Florida",132420,Sumter,Florida
@@ -394,7 +394,7 @@ CountyState,Pop,county,state
 "Banks County, Georgia",19234,Banks,Georgia
 "Barrow County, Georgia",83240,Barrow,Georgia
 "Bartow County, Georgia",107738,Bartow,Georgia
-"Ben Hill County, Georgia",16700,BenHill,Georgia
+"Ben Hill County, Georgia",16700,Ben Hill,Georgia
 "Berrien County, Georgia",19397,Berrien,Georgia
 "Bibb County, Georgia",153159,Bibb,Georgia
 "Bleckley County, Georgia",12873,Bleckley,Georgia
@@ -465,7 +465,7 @@ CountyState,Pop,county,state
 "Irwin County, Georgia",9416,Irwin,Georgia
 "Jackson County, Georgia",72977,Jackson,Georgia
 "Jasper County, Georgia",14219,Jasper,Georgia
-"Jeff Davis County, Georgia",15115,JeffDavis,Georgia
+"Jeff Davis County, Georgia",15115,Jeff Davis,Georgia
 "Jefferson County, Georgia",15362,Jefferson,Georgia
 "Jenkins County, Georgia",8676,Jenkins,Georgia
 "Johnson County, Georgia",9643,Johnson,Georgia
@@ -545,7 +545,7 @@ CountyState,Pop,county,state
 "Wilkes County, Georgia",9777,Wilkes,Georgia
 "Wilkinson County, Georgia",8954,Wilkinson,Georgia
 "Worth County, Georgia",20247,Worth,Georgia
-"Hawaii County, Hawaii",201513,Hawaii,Hawaii
+"Hawaii County, Hawaii",201513,,Hawaii
 "Honolulu County, Hawaii",974563,Honolulu,Hawaii
 "Kalawao County, Hawaii",86,Kalawao,Hawaii
 "Kauai County, Hawaii",72293,Kauai,Hawaii
@@ -553,7 +553,7 @@ CountyState,Pop,county,state
 "Ada County, Idaho",481587,Ada,Idaho
 "Adams County, Idaho",4294,Adams,Idaho
 "Bannock County, Idaho",87808,Bannock,Idaho
-"Bear Lake County, Idaho",6125,BearLake,Idaho
+"Bear Lake County, Idaho",6125,Bear Lake,Idaho
 "Benewah County, Idaho",9298,Benewah,Idaho
 "Bingham County, Idaho",46811,Bingham,Idaho
 "Blaine County, Idaho",23021,Blaine,Idaho
@@ -584,14 +584,14 @@ CountyState,Pop,county,state
 "Lincoln County, Idaho",5366,Lincoln,Idaho
 "Madison County, Idaho",39907,Madison,Idaho
 "Minidoka County, Idaho",21039,Minidoka,Idaho
-"Nez Perce County, Idaho",40408,NezPerce,Idaho
+"Nez Perce County, Idaho",40408,Nez Perce,Idaho
 "Oneida County, Idaho",4531,Oneida,Idaho
 "Owyhee County, Idaho",11823,Owyhee,Idaho
 "Payette County, Idaho",23951,Payette,Idaho
 "Power County, Idaho",7681,Power,Idaho
 "Shoshone County, Idaho",12882,Shoshone,Idaho
 "Teton County, Idaho",12142,Teton,Idaho
-"Twin Falls County, Idaho",86878,TwinFalls,Idaho
+"Twin Falls County, Idaho",86878,Twin Falls,Idaho
 "Valley County, Idaho",11392,Valley,Idaho
 "Washington County, Idaho",10194,Washington,Idaho
 "Adams County, Illinois",65435,Adams,Illinois
@@ -613,7 +613,7 @@ CountyState,Pop,county,state
 "Crawford County, Illinois",18667,Crawford,Illinois
 "Cumberland County, Illinois",10766,Cumberland,Illinois
 "DeKalb County, Illinois",104897,DeKalb,Illinois
-"De Witt County, Illinois",15638,DeWitt,Illinois
+"De Witt County, Illinois",15638,De Witt,Illinois
 "Douglas County, Illinois",19465,Douglas,Illinois
 "DuPage County, Illinois",922921,DuPage,Illinois
 "Edgar County, Illinois",17161,Edgar,Illinois
@@ -636,7 +636,7 @@ CountyState,Pop,county,state
 "Jasper County, Illinois",9610,Jasper,Illinois
 "Jefferson County, Illinois",37684,Jefferson,Illinois
 "Jersey County, Illinois",21773,Jersey,Illinois
-"Jo Daviess County, Illinois",21235,JoDaviess,Illinois
+"Jo Daviess County, Illinois",21235,Jo Daviess,Illinois
 "Johnson County, Illinois",12417,Johnson,Illinois
 "Kane County, Illinois",532403,Kane,Illinois
 "Kankakee County, Illinois",109862,Kankakee,Illinois
@@ -674,8 +674,8 @@ CountyState,Pop,county,state
 "Putnam County, Illinois",5739,Putnam,Illinois
 "Randolph County, Illinois",31782,Randolph,Illinois
 "Richland County, Illinois",15513,Richland,Illinois
-"Rock Island County, Illinois",141879,RockIsland,Illinois
-"St. Clair County, Illinois",259686,St.Clair,Illinois
+"Rock Island County, Illinois",141879,Rock Island,Illinois
+"St. Clair County, Illinois",259686,St. Clair,Illinois
 "Saline County, Illinois",23491,Saline,Illinois
 "Sangamon County, Illinois",194672,Sangamon,Illinois
 "Schuyler County, Illinois",6768,Schuyler,Illinois
@@ -766,7 +766,7 @@ CountyState,Pop,county,state
 "Randolph County, Indiana",24665,Randolph,Indiana
 "Ripley County, Indiana",28324,Ripley,Indiana
 "Rush County, Indiana",16581,Rush,Indiana
-"St. Joseph County, Indiana",271826,St.Joseph,Indiana
+"St. Joseph County, Indiana",271826,St. Joseph,Indiana
 "Scott County, Indiana",23873,Scott,Indiana
 "Shelby County, Indiana",44729,Shelby,Indiana
 "Spencer County, Indiana",20277,Spencer,Indiana
@@ -794,17 +794,17 @@ CountyState,Pop,county,state
 "Appanoose County, Iowa",12426,Appanoose,Iowa
 "Audubon County, Iowa",5496,Audubon,Iowa
 "Benton County, Iowa",25645,Benton,Iowa
-"Black Hawk County, Iowa",131228,BlackHawk,Iowa
+"Black Hawk County, Iowa",131228,Black Hawk,Iowa
 "Boone County, Iowa",26234,Boone,Iowa
 "Bremer County, Iowa",25062,Bremer,Iowa
 "Buchanan County, Iowa",21175,Buchanan,Iowa
-"Buena Vista County, Iowa",19620,BuenaVista,Iowa
+"Buena Vista County, Iowa",19620,Buena Vista,Iowa
 "Butler County, Iowa",14439,Butler,Iowa
 "Calhoun County, Iowa",9668,Calhoun,Iowa
 "Carroll County, Iowa",20165,Carroll,Iowa
 "Cass County, Iowa",12836,Cass,Iowa
 "Cedar County, Iowa",18627,Cedar,Iowa
-"Cerro Gordo County, Iowa",42450,CerroGordo,Iowa
+"Cerro Gordo County, Iowa",42450,Cerro Gordo,Iowa
 "Cherokee County, Iowa",11235,Cherokee,Iowa
 "Chickasaw County, Iowa",11933,Chickasaw,Iowa
 "Clarke County, Iowa",9395,Clarke,Iowa
@@ -816,7 +816,7 @@ CountyState,Pop,county,state
 "Davis County, Iowa",9000,Davis,Iowa
 "Decatur County, Iowa",7870,Decatur,Iowa
 "Delaware County, Iowa",17011,Delaware,Iowa
-"Des Moines County, Iowa",38967,DesMoines,Iowa
+"Des Moines County, Iowa",38967,Des Moines,Iowa
 "Dickinson County, Iowa",17258,Dickinson,Iowa
 "Dubuque County, Iowa",97311,Dubuque,Iowa
 "Emmet County, Iowa",9208,Emmet,Iowa
@@ -861,7 +861,7 @@ CountyState,Pop,county,state
 "O'Brien County, Iowa",13753,O'Brien,Iowa
 "Osceola County, Iowa",5958,Osceola,Iowa
 "Page County, Iowa",15107,Page,Iowa
-"Palo Alto County, Iowa",8886,PaloAlto,Iowa
+"Palo Alto County, Iowa",8886,Palo Alto,Iowa
 "Plymouth County, Iowa",25177,Plymouth,Iowa
 "Pocahontas County, Iowa",6619,Pocahontas,Iowa
 "Polk County, Iowa",490161,Polk,Iowa
@@ -876,7 +876,7 @@ CountyState,Pop,county,state
 "Tama County, Iowa",16854,Tama,Iowa
 "Taylor County, Iowa",6121,Taylor,Iowa
 "Union County, Iowa",12241,Union,Iowa
-"Van Buren County, Iowa",7044,VanBuren,Iowa
+"Van Buren County, Iowa",7044,Van Buren,Iowa
 "Wapello County, Iowa",34969,Wapello,Iowa
 "Warren County, Iowa",51466,Warren,Iowa
 "Washington County, Iowa",21965,Washington,Iowa
@@ -1112,70 +1112,70 @@ CountyState,Pop,county,state
 "Whitley County, Kentucky",36264,Whitley,Kentucky
 "Wolfe County, Kentucky",7157,Wolfe,Kentucky
 "Woodford County, Kentucky",26734,Woodford,Kentucky
-"Acadia Parish, Louisiana",62045,#VALUE!,Louisiana
-"Allen Parish, Louisiana",25627,#VALUE!,Louisiana
-"Ascension Parish, Louisiana",126604,#VALUE!,Louisiana
-"Assumption Parish, Louisiana",21891,#VALUE!,Louisiana
-"Avoyelles Parish, Louisiana",40144,#VALUE!,Louisiana
-"Beauregard Parish, Louisiana",37497,#VALUE!,Louisiana
-"Bienville Parish, Louisiana",13241,#VALUE!,Louisiana
-"Bossier Parish, Louisiana",127039,#VALUE!,Louisiana
-"Caddo Parish, Louisiana",240204,#VALUE!,Louisiana
-"Calcasieu Parish, Louisiana",203436,#VALUE!,Louisiana
-"Caldwell Parish, Louisiana",9918,#VALUE!,Louisiana
-"Cameron Parish, Louisiana",6973,#VALUE!,Louisiana
-"Catahoula Parish, Louisiana",9494,#VALUE!,Louisiana
-"Claiborne Parish, Louisiana",15670,#VALUE!,Louisiana
-"Concordia Parish, Louisiana",19259,#VALUE!,Louisiana
-"De Soto Parish, Louisiana",27463,#VALUE!,Louisiana
-"East Baton Rouge Parish, Louisiana",440059,#VALUE!,Louisiana
-"East Carroll Parish, Louisiana",6861,#VALUE!,Louisiana
-"East Feliciana Parish, Louisiana",19135,#VALUE!,Louisiana
-"Evangeline Parish, Louisiana",33395,#VALUE!,Louisiana
-"Franklin Parish, Louisiana",20015,#VALUE!,Louisiana
-"Grant Parish, Louisiana",22389,#VALUE!,Louisiana
-"Iberia Parish, Louisiana",69830,#VALUE!,Louisiana
-"Iberville Parish, Louisiana",32511,#VALUE!,Louisiana
-"Jackson Parish, Louisiana",15744,#VALUE!,Louisiana
-"Jefferson Parish, Louisiana",432493,#VALUE!,Louisiana
-"Jefferson Davis Parish, Louisiana",31368,#VALUE!,Louisiana
-"Lafayette Parish, Louisiana",244390,#VALUE!,Louisiana
-"Lafourche Parish, Louisiana",97614,#VALUE!,Louisiana
-"LaSalle Parish, Louisiana",14892,#VALUE!,Louisiana
-"Lincoln Parish, Louisiana",46742,#VALUE!,Louisiana
-"Livingston Parish, Louisiana",140789,#VALUE!,Louisiana
-"Madison Parish, Louisiana",10951,#VALUE!,Louisiana
-"Morehouse Parish, Louisiana",24874,#VALUE!,Louisiana
-"Natchitoches Parish, Louisiana",38158,#VALUE!,Louisiana
-"Orleans Parish, Louisiana",390144,#VALUE!,Louisiana
-"Ouachita Parish, Louisiana",153279,#VALUE!,Louisiana
-"Plaquemines Parish, Louisiana",23197,#VALUE!,Louisiana
-"Pointe Coupee Parish, Louisiana",21730,#VALUE!,Louisiana
-"Rapides Parish, Louisiana",129648,#VALUE!,Louisiana
-"Red River Parish, Louisiana",8442,#VALUE!,Louisiana
-"Richland Parish, Louisiana",20122,#VALUE!,Louisiana
-"Sabine Parish, Louisiana",23884,#VALUE!,Louisiana
-"St. Bernard Parish, Louisiana",47244,#VALUE!,Louisiana
-"St. Charles Parish, Louisiana",53100,#VALUE!,Louisiana
-"St. Helena Parish, Louisiana",10132,#VALUE!,Louisiana
-"St. James Parish, Louisiana",21096,#VALUE!,Louisiana
-"St. John the Baptist Parish, Louisiana",42837,#VALUE!,Louisiana
-"St. Landry Parish, Louisiana",82124,#VALUE!,Louisiana
-"St. Martin Parish, Louisiana",53431,#VALUE!,Louisiana
-"St. Mary Parish, Louisiana",49348,#VALUE!,Louisiana
-"St. Tammany Parish, Louisiana",260419,#VALUE!,Louisiana
-"Tangipahoa Parish, Louisiana",134758,#VALUE!,Louisiana
-"Tensas Parish, Louisiana",4334,#VALUE!,Louisiana
-"Terrebonne Parish, Louisiana",110461,#VALUE!,Louisiana
-"Union Parish, Louisiana",22108,#VALUE!,Louisiana
-"Vermilion Parish, Louisiana",59511,#VALUE!,Louisiana
-"Vernon Parish, Louisiana",47429,#VALUE!,Louisiana
-"Washington Parish, Louisiana",46194,#VALUE!,Louisiana
-"Webster Parish, Louisiana",38340,#VALUE!,Louisiana
-"West Baton Rouge Parish, Louisiana",26465,#VALUE!,Louisiana
-"West Carroll Parish, Louisiana",10830,#VALUE!,Louisiana
-"West Feliciana Parish, Louisiana",15568,#VALUE!,Louisiana
-"Winn Parish, Louisiana",13904,#VALUE!,Louisiana
+"Acadia Parish, Louisiana",62045,Acadia Parish ,Louisiana
+"Allen Parish, Louisiana",25627,Allen Parish ,Louisiana
+"Ascension Parish, Louisiana",126604,Ascension Parish ,Louisiana
+"Assumption Parish, Louisiana",21891,Assumption Parish ,Louisiana
+"Avoyelles Parish, Louisiana",40144,Avoyelles Parish ,Louisiana
+"Beauregard Parish, Louisiana",37497,Beauregard Parish ,Louisiana
+"Bienville Parish, Louisiana",13241,Bienville Parish ,Louisiana
+"Bossier Parish, Louisiana",127039,Bossier Parish ,Louisiana
+"Caddo Parish, Louisiana",240204,Caddo Parish ,Louisiana
+"Calcasieu Parish, Louisiana",203436,Calcasieu Parish ,Louisiana
+"Caldwell Parish, Louisiana",9918,Caldwell Parish ,Louisiana
+"Cameron Parish, Louisiana",6973,Cameron Parish ,Louisiana
+"Catahoula Parish, Louisiana",9494,Catahoula Parish ,Louisiana
+"Claiborne Parish, Louisiana",15670,Claiborne Parish ,Louisiana
+"Concordia Parish, Louisiana",19259,Concordia Parish ,Louisiana
+"De Soto Parish, Louisiana",27463,De Soto Parish ,Louisiana
+"East Baton Rouge Parish, Louisiana",440059,East Baton Rouge Parish ,Louisiana
+"East Carroll Parish, Louisiana",6861,East Carroll Parish ,Louisiana
+"East Feliciana Parish, Louisiana",19135,East Feliciana Parish ,Louisiana
+"Evangeline Parish, Louisiana",33395,Evangeline Parish ,Louisiana
+"Franklin Parish, Louisiana",20015,Franklin Parish ,Louisiana
+"Grant Parish, Louisiana",22389,Grant Parish ,Louisiana
+"Iberia Parish, Louisiana",69830,Iberia Parish ,Louisiana
+"Iberville Parish, Louisiana",32511,Iberville Parish ,Louisiana
+"Jackson Parish, Louisiana",15744,Jackson Parish ,Louisiana
+"Jefferson Parish, Louisiana",432493,Jefferson Parish ,Louisiana
+"Jefferson Davis Parish, Louisiana",31368,Jefferson Davis Parish ,Louisiana
+"Lafayette Parish, Louisiana",244390,Lafayette Parish ,Louisiana
+"Lafourche Parish, Louisiana",97614,Lafourche Parish ,Louisiana
+"LaSalle Parish, Louisiana",14892,LaSalle Parish ,Louisiana
+"Lincoln Parish, Louisiana",46742,Lincoln Parish ,Louisiana
+"Livingston Parish, Louisiana",140789,Livingston Parish ,Louisiana
+"Madison Parish, Louisiana",10951,Madison Parish ,Louisiana
+"Morehouse Parish, Louisiana",24874,Morehouse Parish ,Louisiana
+"Natchitoches Parish, Louisiana",38158,Natchitoches Parish ,Louisiana
+"Orleans Parish, Louisiana",390144,Orleans Parish ,Louisiana
+"Ouachita Parish, Louisiana",153279,Ouachita Parish ,Louisiana
+"Plaquemines Parish, Louisiana",23197,Plaquemines Parish ,Louisiana
+"Pointe Coupee Parish, Louisiana",21730,Pointe Coupee Parish ,Louisiana
+"Rapides Parish, Louisiana",129648,Rapides Parish ,Louisiana
+"Red River Parish, Louisiana",8442,Red River Parish ,Louisiana
+"Richland Parish, Louisiana",20122,Richland Parish ,Louisiana
+"Sabine Parish, Louisiana",23884,Sabine Parish ,Louisiana
+"St. Bernard Parish, Louisiana",47244,St. Bernard Parish ,Louisiana
+"St. Charles Parish, Louisiana",53100,St. Charles Parish ,Louisiana
+"St. Helena Parish, Louisiana",10132,St. Helena Parish ,Louisiana
+"St. James Parish, Louisiana",21096,St. James Parish ,Louisiana
+"St. John the Baptist Parish, Louisiana",42837,St. John the Baptist Parish ,Louisiana
+"St. Landry Parish, Louisiana",82124,St. Landry Parish ,Louisiana
+"St. Martin Parish, Louisiana",53431,St. Martin Parish ,Louisiana
+"St. Mary Parish, Louisiana",49348,St. Mary Parish ,Louisiana
+"St. Tammany Parish, Louisiana",260419,St. Tammany Parish ,Louisiana
+"Tangipahoa Parish, Louisiana",134758,Tangipahoa Parish ,Louisiana
+"Tensas Parish, Louisiana",4334,Tensas Parish ,Louisiana
+"Terrebonne Parish, Louisiana",110461,Terrebonne Parish ,Louisiana
+"Union Parish, Louisiana",22108,Union Parish ,Louisiana
+"Vermilion Parish, Louisiana",59511,Vermilion Parish ,Louisiana
+"Vernon Parish, Louisiana",47429,Vernon Parish ,Louisiana
+"Washington Parish, Louisiana",46194,Washington Parish ,Louisiana
+"Webster Parish, Louisiana",38340,Webster Parish ,Louisiana
+"West Baton Rouge Parish, Louisiana",26465,West Baton Rouge Parish ,Louisiana
+"West Carroll Parish, Louisiana",10830,West Carroll Parish ,Louisiana
+"West Feliciana Parish, Louisiana",15568,West Feliciana Parish ,Louisiana
+"Winn Parish, Louisiana",13904,Winn Parish ,Louisiana
 "Androscoggin County, Maine",108277,Androscoggin,Maine
 "Aroostook County, Maine",67055,Aroostook,Maine
 "Cumberland County, Maine",295003,Cumberland,Maine
@@ -1193,7 +1193,7 @@ CountyState,Pop,county,state
 "Washington County, Maine",31379,Washington,Maine
 "York County, Maine",207641,York,Maine
 "Allegany County, Maryland",70416,Allegany,Maryland
-"Anne Arundel County, Maryland",579234,AnneArundel,Maryland
+"Anne Arundel County, Maryland",579234,Anne Arundel,Maryland
 "Baltimore County, Maryland",827370,Baltimore,Maryland
 "Calvert County, Maryland",92525,Calvert,Maryland
 "Caroline County, Maryland",33406,Caroline,Maryland
@@ -1207,15 +1207,15 @@ CountyState,Pop,county,state
 "Howard County, Maryland",325690,Howard,Maryland
 "Kent County, Maryland",19422,Kent,Maryland
 "Montgomery County, Maryland",1050688,Montgomery,Maryland
-"Prince George's County, Maryland",909327,PrinceGeorge's,Maryland
-"Queen Anne's County, Maryland",50381,QueenAnne's,Maryland
-"St. Mary's County, Maryland",113510,St.Mary's,Maryland
+"Prince George's County, Maryland",909327,Prince George's,Maryland
+"Queen Anne's County, Maryland",50381,Queen Anne's,Maryland
+"St. Mary's County, Maryland",113510,St. Mary's,Maryland
 "Somerset County, Maryland",25616,Somerset,Maryland
 "Talbot County, Maryland",37181,Talbot,Maryland
 "Washington County, Maryland",151049,Washington,Maryland
 "Wicomico County, Maryland",103609,Wicomico,Maryland
 "Worcester County, Maryland",52276,Worcester,Maryland
-"Baltimore city, Maryland",593490,#VALUE!,Maryland
+"Baltimore city, Maryland",593490,Baltimore,Maryland
 "Barnstable County, Massachusetts",212990,Barnstable,Massachusetts
 "Berkshire County, Massachusetts",124944,Berkshire,Massachusetts
 "Bristol County, Massachusetts",565217,Bristol,Massachusetts
@@ -1257,7 +1257,7 @@ CountyState,Pop,county,state
 "Genesee County, Michigan",405813,Genesee,Michigan
 "Gladwin County, Michigan",25449,Gladwin,Michigan
 "Gogebic County, Michigan",13975,Gogebic,Michigan
-"Grand Traverse County, Michigan",93088,GrandTraverse,Michigan
+"Grand Traverse County, Michigan",93088,Grand Traverse,Michigan
 "Gratiot County, Michigan",40711,Gratiot,Michigan
 "Hillsdale County, Michigan",45605,Hillsdale,Michigan
 "Houghton County, Michigan",35684,Houghton,Michigan
@@ -1300,16 +1300,16 @@ CountyState,Pop,county,state
 "Oscoda County, Michigan",8241,Oscoda,Michigan
 "Otsego County, Michigan",24668,Otsego,Michigan
 "Ottawa County, Michigan",291830,Ottawa,Michigan
-"Presque Isle County, Michigan",12592,PresqueIsle,Michigan
+"Presque Isle County, Michigan",12592,Presque Isle,Michigan
 "Roscommon County, Michigan",24019,Roscommon,Michigan
 "Saginaw County, Michigan",190539,Saginaw,Michigan
-"St. Clair County, Michigan",159128,St.Clair,Michigan
-"St. Joseph County, Michigan",60964,St.Joseph,Michigan
+"St. Clair County, Michigan",159128,St. Clair,Michigan
+"St. Joseph County, Michigan",60964,St. Joseph,Michigan
 "Sanilac County, Michigan",41170,Sanilac,Michigan
 "Schoolcraft County, Michigan",8094,Schoolcraft,Michigan
 "Shiawassee County, Michigan",68122,Shiawassee,Michigan
 "Tuscola County, Michigan",52245,Tuscola,Michigan
-"Van Buren County, Michigan",75677,VanBuren,Michigan
+"Van Buren County, Michigan",75677,Van Buren,Michigan
 "Washtenaw County, Michigan",367601,Washtenaw,Michigan
 "Wayne County, Michigan",1749343,Wayne,Michigan
 "Wexford County, Michigan",33631,Wexford,Michigan
@@ -1318,8 +1318,8 @@ CountyState,Pop,county,state
 "Becker County, Minnesota",34423,Becker,Minnesota
 "Beltrami County, Minnesota",47188,Beltrami,Minnesota
 "Benton County, Minnesota",40889,Benton,Minnesota
-"Big Stone County, Minnesota",4991,BigStone,Minnesota
-"Blue Earth County, Minnesota",67653,BlueEarth,Minnesota
+"Big Stone County, Minnesota",4991,Big Stone,Minnesota
+"Blue Earth County, Minnesota",67653,Blue Earth,Minnesota
 "Brown County, Minnesota",25008,Brown,Minnesota
 "Carlton County, Minnesota",35871,Carlton,Minnesota
 "Carver County, Minnesota",105089,Carver,Minnesota
@@ -1330,7 +1330,7 @@ CountyState,Pop,county,state
 "Clearwater County, Minnesota",8818,Clearwater,Minnesota
 "Cook County, Minnesota",5463,Cook,Minnesota
 "Cottonwood County, Minnesota",11196,Cottonwood,Minnesota
-"Crow Wing County, Minnesota",65055,CrowWing,Minnesota
+"Crow Wing County, Minnesota",65055,Crow Wing,Minnesota
 "Dakota County, Minnesota",429021,Dakota,Minnesota
 "Dodge County, Minnesota",20934,Dodge,Minnesota
 "Douglas County, Minnesota",38141,Douglas,Minnesota
@@ -1349,10 +1349,10 @@ CountyState,Pop,county,state
 "Kandiyohi County, Minnesota",43199,Kandiyohi,Minnesota
 "Kittson County, Minnesota",4298,Kittson,Minnesota
 "Koochiching County, Minnesota",12229,Koochiching,Minnesota
-"Lac qui Parle County, Minnesota",6623,LacquiParle,Minnesota
+"Lac qui Parle County, Minnesota",6623,Lac qui Parle,Minnesota
 "Lake County, Minnesota",10641,Lake,Minnesota
-"Lake of the Woods County, Minnesota",3740,LakeoftheWoods,Minnesota
-"Le Sueur County, Minnesota",28887,LeSueur,Minnesota
+"Lake of the Woods County, Minnesota",3740,Lake of the Woods,Minnesota
+"Le Sueur County, Minnesota",28887,Le Sueur,Minnesota
 "Lincoln County, Minnesota",5639,Lincoln,Minnesota
 "Lyon County, Minnesota",25474,Lyon,Minnesota
 "McLeod County, Minnesota",35893,McLeod,Minnesota
@@ -1360,7 +1360,7 @@ CountyState,Pop,county,state
 "Marshall County, Minnesota",9336,Marshall,Minnesota
 "Martin County, Minnesota",19683,Martin,Minnesota
 "Meeker County, Minnesota",23222,Meeker,Minnesota
-"Mille Lacs County, Minnesota",26277,MilleLacs,Minnesota
+"Mille Lacs County, Minnesota",26277,Mille Lacs,Minnesota
 "Morrison County, Minnesota",33386,Morrison,Minnesota
 "Mower County, Minnesota",40062,Mower,Minnesota
 "Murray County, Minnesota",8194,Murray,Minnesota
@@ -1368,20 +1368,20 @@ CountyState,Pop,county,state
 "Nobles County, Minnesota",21629,Nobles,Minnesota
 "Norman County, Minnesota",6375,Norman,Minnesota
 "Olmsted County, Minnesota",158293,Olmsted,Minnesota
-"Otter Tail County, Minnesota",58746,OtterTail,Minnesota
+"Otter Tail County, Minnesota",58746,Otter Tail,Minnesota
 "Pennington County, Minnesota",14119,Pennington,Minnesota
 "Pine County, Minnesota",29579,Pine,Minnesota
 "Pipestone County, Minnesota",9126,Pipestone,Minnesota
 "Polk County, Minnesota",31364,Polk,Minnesota
 "Pope County, Minnesota",11249,Pope,Minnesota
 "Ramsey County, Minnesota",550321,Ramsey,Minnesota
-"Red Lake County, Minnesota",4055,RedLake,Minnesota
+"Red Lake County, Minnesota",4055,Red Lake,Minnesota
 "Redwood County, Minnesota",15170,Redwood,Minnesota
 "Renville County, Minnesota",14548,Renville,Minnesota
 "Rice County, Minnesota",66972,Rice,Minnesota
 "Rock County, Minnesota",9315,Rock,Minnesota
 "Roseau County, Minnesota",15165,Roseau,Minnesota
-"St. Louis County, Minnesota",199070,St.Louis,Minnesota
+"St. Louis County, Minnesota",199070,St. Louis,Minnesota
 "Scott County, Minnesota",149013,Scott,Minnesota
 "Sherburne County, Minnesota",97238,Sherburne,Minnesota
 "Sibley County, Minnesota",14865,Sibley,Minnesota
@@ -1399,7 +1399,7 @@ CountyState,Pop,county,state
 "Wilkin County, Minnesota",6207,Wilkin,Minnesota
 "Winona County, Minnesota",50484,Winona,Minnesota
 "Wright County, Minnesota",138377,Wright,Minnesota
-"Yellow Medicine County, Minnesota",9709,YellowMedicine,Minnesota
+"Yellow Medicine County, Minnesota",9709,Yellow Medicine,Minnesota
 "Adams County, Mississippi",30693,Adams,Mississippi
 "Alcorn County, Mississippi",36953,Alcorn,Mississippi
 "Amite County, Mississippi",12297,Amite,Mississippi
@@ -1432,7 +1432,7 @@ CountyState,Pop,county,state
 "Jackson County, Mississippi",143617,Jackson,Mississippi
 "Jasper County, Mississippi",16383,Jasper,Mississippi
 "Jefferson County, Mississippi",6990,Jefferson,Mississippi
-"Jefferson Davis County, Mississippi",11128,JeffersonDavis,Mississippi
+"Jefferson Davis County, Mississippi",11128,Jefferson Davis,Mississippi
 "Jones County, Mississippi",68098,Jones,Mississippi
 "Kemper County, Mississippi",9742,Kemper,Mississippi
 "Lafayette County, Mississippi",54019,Lafayette,Mississippi
@@ -1454,7 +1454,7 @@ CountyState,Pop,county,state
 "Noxubee County, Mississippi",10417,Noxubee,Mississippi
 "Oktibbeha County, Mississippi",49587,Oktibbeha,Mississippi
 "Panola County, Mississippi",34192,Panola,Mississippi
-"Pearl River County, Mississippi",55535,PearlRiver,Mississippi
+"Pearl River County, Mississippi",55535,Pearl River,Mississippi
 "Perry County, Mississippi",11973,Perry,Mississippi
 "Pike County, Mississippi",39288,Pike,Mississippi
 "Pontotoc County, Mississippi",32174,Pontotoc,Mississippi
@@ -1497,7 +1497,7 @@ CountyState,Pop,county,state
 "Caldwell County, Missouri",9020,Caldwell,Missouri
 "Callaway County, Missouri",44743,Callaway,Missouri
 "Camden County, Missouri",46305,Camden,Missouri
-"Cape Girardeau County, Missouri",78871,CapeGirardeau,Missouri
+"Cape Girardeau County, Missouri",78871,Cape Girardeau,Missouri
 "Carroll County, Missouri",8679,Carroll,Missouri
 "Carter County, Missouri",5982,Carter,Missouri
 "Cass County, Missouri",105780,Cass,Missouri
@@ -1553,7 +1553,7 @@ CountyState,Pop,county,state
 "Monroe County, Missouri",8644,Monroe,Missouri
 "Montgomery County, Missouri",11551,Montgomery,Missouri
 "Morgan County, Missouri",20627,Morgan,Missouri
-"New Madrid County, Missouri",17076,NewMadrid,Missouri
+"New Madrid County, Missouri",17076,New Madrid,Missouri
 "Newton County, Missouri",58236,Newton,Missouri
 "Nodaway County, Missouri",22092,Nodaway,Missouri
 "Oregon County, Missouri",10529,Oregon,Missouri
@@ -1573,11 +1573,11 @@ CountyState,Pop,county,state
 "Ray County, Missouri",23018,Ray,Missouri
 "Reynolds County, Missouri",6270,Reynolds,Missouri
 "Ripley County, Missouri",13288,Ripley,Missouri
-"St. Charles County, Missouri",402022,St.Charles,Missouri
-"St. Clair County, Missouri",9397,St.Clair,Missouri
-"Ste. Genevieve County, Missouri",17894,Ste.Genevieve,Missouri
-"St. Francois County, Missouri",67215,St.Francois,Missouri
-"St. Louis County, Missouri",994205,St.Louis,Missouri
+"St. Charles County, Missouri",402022,St. Charles,Missouri
+"St. Clair County, Missouri",9397,St. Clair,Missouri
+"Ste. Genevieve County, Missouri",17894,Ste. Genevieve,Missouri
+"St. Francois County, Missouri",67215,St. Francois,Missouri
+"St. Louis County, Missouri",994205,St. Louis,Missouri
 "Saline County, Missouri",22761,Saline,Missouri
 "Schuyler County, Missouri",4660,Schuyler,Missouri
 "Scotland County, Missouri",4902,Scotland,Missouri
@@ -1596,9 +1596,9 @@ CountyState,Pop,county,state
 "Webster County, Missouri",39592,Webster,Missouri
 "Worth County, Missouri",2013,Worth,Missouri
 "Wright County, Missouri",18289,Wright,Missouri
-"St. Louis city, Missouri",300576,#VALUE!,Missouri
+"St. Louis city, Missouri",300576,St. Louis city ,Missouri
 "Beaverhead County, Montana",9453,Beaverhead,Montana
-"Big Horn County, Montana",13319,BigHorn,Montana
+"Big Horn County, Montana",13319,Big Horn,Montana
 "Blaine County, Montana",6681,Blaine,Montana
 "Broadwater County, Montana",6237,Broadwater,Montana
 "Carbon County, Montana",10725,Carbon,Montana
@@ -1608,20 +1608,20 @@ CountyState,Pop,county,state
 "Custer County, Montana",11402,Custer,Montana
 "Daniels County, Montana",1690,Daniels,Montana
 "Dawson County, Montana",8613,Dawson,Montana
-"Deer Lodge County, Montana",9140,DeerLodge,Montana
+"Deer Lodge County, Montana",9140,Deer Lodge,Montana
 "Fallon County, Montana",2846,Fallon,Montana
 "Fergus County, Montana",11050,Fergus,Montana
 "Flathead County, Montana",103806,Flathead,Montana
 "Gallatin County, Montana",114434,Gallatin,Montana
 "Garfield County, Montana",1258,Garfield,Montana
 "Glacier County, Montana",13753,Glacier,Montana
-"Golden Valley County, Montana",821,GoldenValley,Montana
+"Golden Valley County, Montana",821,Golden Valley,Montana
 "Granite County, Montana",3379,Granite,Montana
 "Hill County, Montana",16484,Hill,Montana
 "Jefferson County, Montana",12221,Jefferson,Montana
-"Judith Basin County, Montana",2007,JudithBasin,Montana
+"Judith Basin County, Montana",2007,Judith Basin,Montana
 "Lake County, Montana",30458,Lake,Montana
-"Lewis and Clark County, Montana",69432,LewisandClark,Montana
+"Lewis and Clark County, Montana",69432,Lewis and Clark,Montana
 "Liberty County, Montana",2337,Liberty,Montana
 "Lincoln County, Montana",19980,Lincoln,Montana
 "McCone County, Montana",1664,McCone,Montana
@@ -1634,7 +1634,7 @@ CountyState,Pop,county,state
 "Petroleum County, Montana",487,Petroleum,Montana
 "Phillips County, Montana",3954,Phillips,Montana
 "Pondera County, Montana",5911,Pondera,Montana
-"Powder River County, Montana",1682,PowderRiver,Montana
+"Powder River County, Montana",1682,Powder River,Montana
 "Powell County, Montana",6890,Powell,Montana
 "Prairie County, Montana",1077,Prairie,Montana
 "Ravalli County, Montana",43806,Ravalli,Montana
@@ -1643,9 +1643,9 @@ CountyState,Pop,county,state
 "Rosebud County, Montana",8937,Rosebud,Montana
 "Sanders County, Montana",12113,Sanders,Montana
 "Sheridan County, Montana",3309,Sheridan,Montana
-"Silver Bow County, Montana",34915,SilverBow,Montana
+"Silver Bow County, Montana",34915,Silver Bow,Montana
 "Stillwater County, Montana",9642,Stillwater,Montana
-"Sweet Grass County, Montana",3737,SweetGrass,Montana
+"Sweet Grass County, Montana",3737,Sweet Grass,Montana
 "Teton County, Montana",6147,Teton,Montana
 "Toole County, Montana",4736,Toole,Montana
 "Treasure County, Montana",696,Treasure,Montana
@@ -1659,7 +1659,7 @@ CountyState,Pop,county,state
 "Banner County, Nebraska",745,Banner,Nebraska
 "Blaine County, Nebraska",465,Blaine,Nebraska
 "Boone County, Nebraska",5192,Boone,Nebraska
-"Box Butte County, Nebraska",10783,BoxButte,Nebraska
+"Box Butte County, Nebraska",10783,Box Butte,Nebraska
 "Boyd County, Nebraska",1919,Boyd,Nebraska
 "Brown County, Nebraska",2955,Brown,Nebraska
 "Buffalo County, Nebraska",49659,Buffalo,Nebraska
@@ -1704,7 +1704,7 @@ CountyState,Pop,county,state
 "Johnson County, Nebraska",5071,Johnson,Nebraska
 "Kearney County, Nebraska",6495,Kearney,Nebraska
 "Keith County, Nebraska",8034,Keith,Nebraska
-"Keya Paha County, Nebraska",806,KeyaPaha,Nebraska
+"Keya Paha County, Nebraska",806,Keya Paha,Nebraska
 "Kimball County, Nebraska",3632,Kimball,Nebraska
 "Knox County, Nebraska",8332,Knox,Nebraska
 "Lancaster County, Nebraska",319090,Lancaster,Nebraska
@@ -1725,13 +1725,13 @@ CountyState,Pop,county,state
 "Pierce County, Nebraska",7148,Pierce,Nebraska
 "Platte County, Nebraska",33470,Platte,Nebraska
 "Polk County, Nebraska",5213,Polk,Nebraska
-"Red Willow County, Nebraska",10724,RedWillow,Nebraska
+"Red Willow County, Nebraska",10724,Red Willow,Nebraska
 "Richardson County, Nebraska",7865,Richardson,Nebraska
 "Rock County, Nebraska",1357,Rock,Nebraska
 "Saline County, Nebraska",14224,Saline,Nebraska
 "Sarpy County, Nebraska",187196,Sarpy,Nebraska
 "Saunders County, Nebraska",21578,Saunders,Nebraska
-"Scotts Bluff County, Nebraska",35618,ScottsBluff,Nebraska
+"Scotts Bluff County, Nebraska",35618,Scotts Bluff,Nebraska
 "Seward County, Nebraska",17284,Seward,Nebraska
 "Sheridan County, Nebraska",5246,Sheridan,Nebraska
 "Sherman County, Nebraska",3001,Sherman,Nebraska
@@ -1761,287 +1761,287 @@ CountyState,Pop,county,state
 "Pershing County, Nevada",6725,Pershing,Nevada
 "Storey County, Nevada",4123,Storey,Nevada
 "Washoe County, Nevada",471519,Washoe,Nevada
-"White Pine County, Nevada",9580,WhitePine,Nevada
-"Carson City, Nevada",55916,#VALUE!,Nevada
-"Belknap County, New Hampshire",61303,Belknap,NewHampshire
-"Carroll County, New Hampshire",48910,Carroll,NewHampshire
-"Cheshire County, New Hampshire",76085,Cheshire,NewHampshire
-"Coos County, New Hampshire",31563,Coos,NewHampshire
-"Grafton County, New Hampshire",89886,Grafton,NewHampshire
-"Hillsborough County, New Hampshire",417025,Hillsborough,NewHampshire
-"Merrimack County, New Hampshire",151391,Merrimack,NewHampshire
-"Rockingham County, New Hampshire",309769,Rockingham,NewHampshire
-"Strafford County, New Hampshire",130633,Strafford,NewHampshire
-"Sullivan County, New Hampshire",43146,Sullivan,NewHampshire
-"Atlantic County, New Jersey",263670,Atlantic,NewJersey
-"Bergen County, New Jersey",932202,Bergen,NewJersey
-"Burlington County, New Jersey",445349,Burlington,NewJersey
-"Camden County, New Jersey",506471,Camden,NewJersey
-"Cape May County, New Jersey",92039,CapeMay,NewJersey
-"Cumberland County, New Jersey",149527,Cumberland,NewJersey
-"Essex County, New Jersey",798975,Essex,NewJersey
-"Gloucester County, New Jersey",291636,Gloucester,NewJersey
-"Hudson County, New Jersey",672391,Hudson,NewJersey
-"Hunterdon County, New Jersey",124371,Hunterdon,NewJersey
-"Mercer County, New Jersey",367430,Mercer,NewJersey
-"Middlesex County, New Jersey",825062,Middlesex,NewJersey
-"Monmouth County, New Jersey",618795,Monmouth,NewJersey
-"Morris County, New Jersey",491845,Morris,NewJersey
-"Ocean County, New Jersey",607186,Ocean,NewJersey
-"Passaic County, New Jersey",501826,Passaic,NewJersey
-"Salem County, New Jersey",62385,Salem,NewJersey
-"Somerset County, New Jersey",328934,Somerset,NewJersey
-"Sussex County, New Jersey",140488,Sussex,NewJersey
-"Union County, New Jersey",556341,Union,NewJersey
-"Warren County, New Jersey",105267,Warren,NewJersey
-"Bernalillo County, New Mexico",679121,Bernalillo,NewMexico
-"Catron County, New Mexico",3527,Catron,NewMexico
-"Chaves County, New Mexico",64615,Chaves,NewMexico
-"Cibola County, New Mexico",26675,Cibola,NewMexico
-"Colfax County, New Mexico",11941,Colfax,NewMexico
-"Curry County, New Mexico",48954,Curry,NewMexico
-"De Baca County, New Mexico",1748,DeBaca,NewMexico
-"Doña Ana County, New Mexico",218195,DoñaAna,NewMexico
-"Eddy County, New Mexico",58460,Eddy,NewMexico
-"Grant County, New Mexico",26998,Grant,NewMexico
-"Guadalupe County, New Mexico",4300,Guadalupe,NewMexico
-"Harding County, New Mexico",625,Harding,NewMexico
-"Hidalgo County, New Mexico",4198,Hidalgo,NewMexico
-"Lea County, New Mexico",71070,Lea,NewMexico
-"Lincoln County, New Mexico",19572,Lincoln,NewMexico
-"Los Alamos County, New Mexico",19369,LosAlamos,NewMexico
-"Luna County, New Mexico",23709,Luna,NewMexico
-"McKinley County, New Mexico",71367,McKinley,NewMexico
-"Mora County, New Mexico",4521,Mora,NewMexico
-"Otero County, New Mexico",67490,Otero,NewMexico
-"Quay County, New Mexico",8253,Quay,NewMexico
-"Rio Arriba County, New Mexico",38921,RioArriba,NewMexico
-"Roosevelt County, New Mexico",18500,Roosevelt,NewMexico
-"Sandoval County, New Mexico",146748,Sandoval,NewMexico
-"San Juan County, New Mexico",123958,SanJuan,NewMexico
-"San Miguel County, New Mexico",27277,SanMiguel,NewMexico
-"Santa Fe County, New Mexico",150358,SantaFe,NewMexico
-"Sierra County, New Mexico",10791,Sierra,NewMexico
-"Socorro County, New Mexico",16637,Socorro,NewMexico
-"Taos County, New Mexico",32723,Taos,NewMexico
-"Torrance County, New Mexico",15461,Torrance,NewMexico
-"Union County, New Mexico",4059,Union,NewMexico
-"Valencia County, New Mexico",76688,Valencia,NewMexico
-"Albany County, New York",305506,Albany,NewYork
-"Allegany County, New York",46091,Allegany,NewYork
-"Bronx County, New York",1418207,Bronx,NewYork
-"Broome County, New York",190488,Broome,NewYork
-"Cattaraugus County, New York",76117,Cattaraugus,NewYork
-"Cayuga County, New York",76576,Cayuga,NewYork
-"Chautauqua County, New York",126903,Chautauqua,NewYork
-"Chemung County, New York",83456,Chemung,NewYork
-"Chenango County, New York",47207,Chenango,NewYork
-"Clinton County, New York",80485,Clinton,NewYork
-"Columbia County, New York",59461,Columbia,NewYork
-"Cortland County, New York",47581,Cortland,NewYork
-"Delaware County, New York",44135,Delaware,NewYork
-"Dutchess County, New York",294218,Dutchess,NewYork
-"Erie County, New York",918702,Erie,NewYork
-"Essex County, New York",36885,Essex,NewYork
-"Franklin County, New York",50022,Franklin,NewYork
-"Fulton County, New York",53383,Fulton,NewYork
-"Genesee County, New York",57280,Genesee,NewYork
-"Greene County, New York",47188,Greene,NewYork
-"Hamilton County, New York",4416,Hamilton,NewYork
-"Herkimer County, New York",61319,Herkimer,NewYork
-"Jefferson County, New York",109834,Jefferson,NewYork
-"Kings County, New York",2559903,Kings,NewYork
-"Lewis County, New York",26296,Lewis,NewYork
-"Livingston County, New York",62914,Livingston,NewYork
-"Madison County, New York",70941,Madison,NewYork
-"Monroe County, New York",741770,Monroe,NewYork
-"Montgomery County, New York",49221,Montgomery,NewYork
-"Nassau County, New York",1356924,Nassau,NewYork
-"New York County, New York",1628706,NewYork,NewYork
-"Niagara County, New York",209281,Niagara,NewYork
-"Oneida County, New York",228671,Oneida,NewYork
-"Onondaga County, New York",460528,Onondaga,NewYork
-"Ontario County, New York",109777,Ontario,NewYork
-"Orange County, New York",384940,Orange,NewYork
-"Orleans County, New York",40352,Orleans,NewYork
-"Oswego County, New York",117124,Oswego,NewYork
-"Otsego County, New York",59493,Otsego,NewYork
-"Putnam County, New York",98320,Putnam,NewYork
-"Queens County, New York",2253858,Queens,NewYork
-"Rensselaer County, New York",158714,Rensselaer,NewYork
-"Richmond County, New York",476143,Richmond,NewYork
-"Rockland County, New York",325789,Rockland,NewYork
-"St. Lawrence County, New York",107740,St.Lawrence,NewYork
-"Saratoga County, New York",229863,Saratoga,NewYork
-"Schenectady County, New York",155299,Schenectady,NewYork
-"Schoharie County, New York",30999,Schoharie,NewYork
-"Schuyler County, New York",17807,Schuyler,NewYork
-"Seneca County, New York",34016,Seneca,NewYork
-"Steuben County, New York",95379,Steuben,NewYork
-"Suffolk County, New York",1476601,Suffolk,NewYork
-"Sullivan County, New York",75432,Sullivan,NewYork
-"Tioga County, New York",48203,Tioga,NewYork
-"Tompkins County, New York",102180,Tompkins,NewYork
-"Ulster County, New York",177573,Ulster,NewYork
-"Warren County, New York",63944,Warren,NewYork
-"Washington County, New York",61204,Washington,NewYork
-"Wayne County, New York",89918,Wayne,NewYork
-"Westchester County, New York",967506,Westchester,NewYork
-"Wyoming County, New York",39859,Wyoming,NewYork
-"Yates County, New York",24913,Yates,NewYork
-"Alamance County, North Carolina",169509,Alamance,NorthCarolina
-"Alexander County, North Carolina",37497,Alexander,NorthCarolina
-"Alleghany County, North Carolina",11137,Alleghany,NorthCarolina
-"Anson County, North Carolina",24446,Anson,NorthCarolina
-"Ashe County, North Carolina",27203,Ashe,NorthCarolina
-"Avery County, North Carolina",17557,Avery,NorthCarolina
-"Beaufort County, North Carolina",46994,Beaufort,NorthCarolina
-"Bertie County, North Carolina",18947,Bertie,NorthCarolina
-"Bladen County, North Carolina",32722,Bladen,NorthCarolina
-"Brunswick County, North Carolina",142820,Brunswick,NorthCarolina
-"Buncombe County, North Carolina",261191,Buncombe,NorthCarolina
-"Burke County, North Carolina",90485,Burke,NorthCarolina
-"Cabarrus County, North Carolina",216453,Cabarrus,NorthCarolina
-"Caldwell County, North Carolina",82178,Caldwell,NorthCarolina
-"Camden County, North Carolina",10867,Camden,NorthCarolina
-"Carteret County, North Carolina",69473,Carteret,NorthCarolina
-"Caswell County, North Carolina",22604,Caswell,NorthCarolina
-"Catawba County, North Carolina",159551,Catawba,NorthCarolina
-"Chatham County, North Carolina",74470,Chatham,NorthCarolina
-"Cherokee County, North Carolina",28612,Cherokee,NorthCarolina
-"Chowan County, North Carolina",13943,Chowan,NorthCarolina
-"Clay County, North Carolina",11231,Clay,NorthCarolina
-"Cleveland County, North Carolina",97947,Cleveland,NorthCarolina
-"Columbus County, North Carolina",55508,Columbus,NorthCarolina
-"Craven County, North Carolina",102139,Craven,NorthCarolina
-"Cumberland County, North Carolina",335509,Cumberland,NorthCarolina
-"Currituck County, North Carolina",27763,Currituck,NorthCarolina
-"Dare County, North Carolina",37009,Dare,NorthCarolina
-"Davidson County, North Carolina",167609,Davidson,NorthCarolina
-"Davie County, North Carolina",42846,Davie,NorthCarolina
-"Duplin County, North Carolina",58741,Duplin,NorthCarolina
-"Durham County, North Carolina",321488,Durham,NorthCarolina
-"Edgecombe County, North Carolina",51472,Edgecombe,NorthCarolina
-"Forsyth County, North Carolina",382295,Forsyth,NorthCarolina
-"Franklin County, North Carolina",69685,Franklin,NorthCarolina
-"Gaston County, North Carolina",224529,Gaston,NorthCarolina
-"Gates County, North Carolina",11562,Gates,NorthCarolina
-"Graham County, North Carolina",8441,Graham,NorthCarolina
-"Granville County, North Carolina",60443,Granville,NorthCarolina
-"Greene County, North Carolina",21069,Greene,NorthCarolina
-"Guilford County, North Carolina",537174,Guilford,NorthCarolina
-"Halifax County, North Carolina",50010,Halifax,NorthCarolina
-"Harnett County, North Carolina",135976,Harnett,NorthCarolina
-"Haywood County, North Carolina",62317,Haywood,NorthCarolina
-"Henderson County, North Carolina",117417,Henderson,NorthCarolina
-"Hertford County, North Carolina",23677,Hertford,NorthCarolina
-"Hoke County, North Carolina",55234,Hoke,NorthCarolina
-"Hyde County, North Carolina",4937,Hyde,NorthCarolina
-"Iredell County, North Carolina",181806,Iredell,NorthCarolina
-"Jackson County, North Carolina",43938,Jackson,NorthCarolina
-"Johnston County, North Carolina",209339,Johnston,NorthCarolina
-"Jones County, North Carolina",9419,Jones,NorthCarolina
-"Lee County, North Carolina",61779,Lee,NorthCarolina
-"Lenoir County, North Carolina",55949,Lenoir,NorthCarolina
-"Lincoln County, North Carolina",86111,Lincoln,NorthCarolina
-"McDowell County, North Carolina",45756,McDowell,NorthCarolina
-"Macon County, North Carolina",35858,Macon,NorthCarolina
-"Madison County, North Carolina",21755,Madison,NorthCarolina
-"Martin County, North Carolina",22440,Martin,NorthCarolina
-"Mecklenburg County, North Carolina",1110356,Mecklenburg,NorthCarolina
-"Mitchell County, North Carolina",14964,Mitchell,NorthCarolina
-"Montgomery County, North Carolina",27173,Montgomery,NorthCarolina
-"Moore County, North Carolina",100880,Moore,NorthCarolina
-"Nash County, North Carolina",94298,Nash,NorthCarolina
-"New Hanover County, North Carolina",234473,NewHanover,NorthCarolina
-"Northampton County, North Carolina",19483,Northampton,NorthCarolina
-"Onslow County, North Carolina",197938,Onslow,NorthCarolina
-"Orange County, North Carolina",148476,Orange,NorthCarolina
-"Pamlico County, North Carolina",12726,Pamlico,NorthCarolina
-"Pasquotank County, North Carolina",39824,Pasquotank,NorthCarolina
-"Pender County, North Carolina",63060,Pender,NorthCarolina
-"Perquimans County, North Carolina",13463,Perquimans,NorthCarolina
-"Person County, North Carolina",39490,Person,NorthCarolina
-"Pitt County, North Carolina",180742,Pitt,NorthCarolina
-"Polk County, North Carolina",20724,Polk,NorthCarolina
-"Randolph County, North Carolina",143667,Randolph,NorthCarolina
-"Richmond County, North Carolina",44829,Richmond,NorthCarolina
-"Robeson County, North Carolina",130625,Robeson,NorthCarolina
-"Rockingham County, North Carolina",91010,Rockingham,NorthCarolina
-"Rowan County, North Carolina",142088,Rowan,NorthCarolina
-"Rutherford County, North Carolina",67029,Rutherford,NorthCarolina
-"Sampson County, North Carolina",63531,Sampson,NorthCarolina
-"Scotland County, North Carolina",34823,Scotland,NorthCarolina
-"Stanly County, North Carolina",62806,Stanly,NorthCarolina
-"Stokes County, North Carolina",45591,Stokes,NorthCarolina
-"Surry County, North Carolina",71783,Surry,NorthCarolina
-"Swain County, North Carolina",14271,Swain,NorthCarolina
-"Transylvania County, North Carolina",34385,Transylvania,NorthCarolina
-"Tyrrell County, North Carolina",4016,Tyrrell,NorthCarolina
-"Union County, North Carolina",239859,Union,NorthCarolina
-"Vance County, North Carolina",44535,Vance,NorthCarolina
-"Wake County, North Carolina",1111761,Wake,NorthCarolina
-"Warren County, North Carolina",19731,Warren,NorthCarolina
-"Washington County, North Carolina",11580,Washington,NorthCarolina
-"Watauga County, North Carolina",56177,Watauga,NorthCarolina
-"Wayne County, North Carolina",123131,Wayne,NorthCarolina
-"Wilkes County, North Carolina",68412,Wilkes,NorthCarolina
-"Wilson County, North Carolina",81801,Wilson,NorthCarolina
-"Yadkin County, North Carolina",37667,Yadkin,NorthCarolina
-"Yancey County, North Carolina",18069,Yancey,NorthCarolina
-"Adams County, North Dakota",2216,Adams,NorthDakota
-"Barnes County, North Dakota",10415,Barnes,NorthDakota
-"Benson County, North Dakota",6832,Benson,NorthDakota
-"Billings County, North Dakota",928,Billings,NorthDakota
-"ottineau County, North Dakota",6282,ottineau,NorthDakota
-"Bowman County, North Dakota",3024,Bowman,NorthDakota
-"Burke County, North Dakota",2115,Burke,NorthDakota
-"Burleigh County, North Dakota",95626,Burleigh,NorthDakota
-"Cass County, North Dakota",181923,Cass,NorthDakota
-"Cavalier County, North Dakota",3762,Cavalier,NorthDakota
-"Dickey County, North Dakota",4872,Dickey,NorthDakota
-"Divide County, North Dakota",2264,Divide,NorthDakota
-"Dunn County, North Dakota",4424,Dunn,NorthDakota
-"Eddy County, North Dakota",2287,Eddy,NorthDakota
-"Emmons County, North Dakota",3241,Emmons,NorthDakota
-"Foster County, North Dakota",3210,Foster,NorthDakota
-"Golden Valley County, North Dakota",1761,GoldenValley,NorthDakota
-"Grand Forks County, North Dakota",69451,GrandForks,NorthDakota
-"Grant County, North Dakota",2274,Grant,NorthDakota
-"Griggs County, North Dakota",2231,Griggs,NorthDakota
-"Hettinger County, North Dakota",2499,Hettinger,NorthDakota
-"Kidder County, North Dakota",2480,Kidder,NorthDakota
-"LaMoure County, North Dakota",4046,LaMoure,NorthDakota
-"Logan County, North Dakota",1850,Logan,NorthDakota
-"McHenry County, North Dakota",5745,McHenry,NorthDakota
-"McIntosh County, North Dakota",2497,McIntosh,NorthDakota
-"McKenzie County, North Dakota",15024,McKenzie,NorthDakota
-"McLean County, North Dakota",9450,McLean,NorthDakota
-"Mercer County, North Dakota",8187,Mercer,NorthDakota
-"Morton County, North Dakota",31364,Morton,NorthDakota
-"Mountrail County, North Dakota",10545,Mountrail,NorthDakota
-"Nelson County, North Dakota",2879,Nelson,NorthDakota
-"Oliver County, North Dakota",1959,Oliver,NorthDakota
-"Pembina County, North Dakota",6801,Pembina,NorthDakota
-"Pierce County, North Dakota",3975,Pierce,NorthDakota
-"Ramsey County, North Dakota",11519,Ramsey,NorthDakota
-"Ransom County, North Dakota",5218,Ransom,NorthDakota
-"Renville County, North Dakota",2327,Renville,NorthDakota
-"Richland County, North Dakota",16177,Richland,NorthDakota
-"Rolette County, North Dakota",14176,Rolette,NorthDakota
-"Sargent County, North Dakota",3898,Sargent,NorthDakota
-"Sheridan County, North Dakota",1315,Sheridan,NorthDakota
-"Sioux County, North Dakota",4230,Sioux,NorthDakota
-"Slope County, North Dakota",750,Slope,NorthDakota
-"Stark County, North Dakota",31489,Stark,NorthDakota
-"Steele County, North Dakota",1890,Steele,NorthDakota
-"Stutsman County, North Dakota",20704,Stutsman,NorthDakota
-"Towner County, North Dakota",2189,Towner,NorthDakota
-"Traill County, North Dakota",8036,Traill,NorthDakota
-"Walsh County, North Dakota",10641,Walsh,NorthDakota
-"Ward County, North Dakota",67641,Ward,NorthDakota
-"Wells County, North Dakota",3834,Wells,NorthDakota
-"Williams County, North Dakota",37589,Williams,NorthDakota
+"White Pine County, Nevada",9580,White Pine,Nevada
+"Carson City, Nevada",55916,Carson ,Nevada
+"Belknap County, New Hampshire",61303,Belknap,New Hampshire
+"Carroll County, New Hampshire",48910,Carroll,New Hampshire
+"Cheshire County, New Hampshire",76085,Cheshire,New Hampshire
+"Coos County, New Hampshire",31563,Coos,New Hampshire
+"Grafton County, New Hampshire",89886,Grafton,New Hampshire
+"Hillsborough County, New Hampshire",417025,Hillsborough,New Hampshire
+"Merrimack County, New Hampshire",151391,Merrimack,New Hampshire
+"Rockingham County, New Hampshire",309769,Rockingham,New Hampshire
+"Strafford County, New Hampshire",130633,Strafford,New Hampshire
+"Sullivan County, New Hampshire",43146,Sullivan,New Hampshire
+"Atlantic County, New Jersey",263670,Atlantic,New Jersey
+"Bergen County, New Jersey",932202,Bergen,New Jersey
+"Burlington County, New Jersey",445349,Burlington,New Jersey
+"Camden County, New Jersey",506471,Camden,New Jersey
+"Cape May County, New Jersey",92039,Cape May,New Jersey
+"Cumberland County, New Jersey",149527,Cumberland,New Jersey
+"Essex County, New Jersey",798975,Essex,New Jersey
+"Gloucester County, New Jersey",291636,Gloucester,New Jersey
+"Hudson County, New Jersey",672391,Hudson,New Jersey
+"Hunterdon County, New Jersey",124371,Hunterdon,New Jersey
+"Mercer County, New Jersey",367430,Mercer,New Jersey
+"Middlesex County, New Jersey",825062,Middlesex,New Jersey
+"Monmouth County, New Jersey",618795,Monmouth,New Jersey
+"Morris County, New Jersey",491845,Morris,New Jersey
+"Ocean County, New Jersey",607186,Ocean,New Jersey
+"Passaic County, New Jersey",501826,Passaic,New Jersey
+"Salem County, New Jersey",62385,Salem,New Jersey
+"Somerset County, New Jersey",328934,Somerset,New Jersey
+"Sussex County, New Jersey",140488,Sussex,New Jersey
+"Union County, New Jersey",556341,Union,New Jersey
+"Warren County, New Jersey",105267,Warren,New Jersey
+"Bernalillo County, New Mexico",679121,Bernalillo,New Mexico
+"Catron County, New Mexico",3527,Catron,New Mexico
+"Chaves County, New Mexico",64615,Chaves,New Mexico
+"Cibola County, New Mexico",26675,Cibola,New Mexico
+"Colfax County, New Mexico",11941,Colfax,New Mexico
+"Curry County, New Mexico",48954,Curry,New Mexico
+"De Baca County, New Mexico",1748,De Baca,New Mexico
+"Doña Ana County, New Mexico",218195,Doña Ana,New Mexico
+"Eddy County, New Mexico",58460,Eddy,New Mexico
+"Grant County, New Mexico",26998,Grant,New Mexico
+"Guadalupe County, New Mexico",4300,Guadalupe,New Mexico
+"Harding County, New Mexico",625,Harding,New Mexico
+"Hidalgo County, New Mexico",4198,Hidalgo,New Mexico
+"Lea County, New Mexico",71070,Lea,New Mexico
+"Lincoln County, New Mexico",19572,Lincoln,New Mexico
+"Los Alamos County, New Mexico",19369,Los Alamos,New Mexico
+"Luna County, New Mexico",23709,Luna,New Mexico
+"McKinley County, New Mexico",71367,McKinley,New Mexico
+"Mora County, New Mexico",4521,Mora,New Mexico
+"Otero County, New Mexico",67490,Otero,New Mexico
+"Quay County, New Mexico",8253,Quay,New Mexico
+"Rio Arriba County, New Mexico",38921,Rio Arriba,New Mexico
+"Roosevelt County, New Mexico",18500,Roosevelt,New Mexico
+"Sandoval County, New Mexico",146748,Sandoval,New Mexico
+"San Juan County, New Mexico",123958,San Juan,New Mexico
+"San Miguel County, New Mexico",27277,San Miguel,New Mexico
+"Santa Fe County, New Mexico",150358,Santa Fe,New Mexico
+"Sierra County, New Mexico",10791,Sierra,New Mexico
+"Socorro County, New Mexico",16637,Socorro,New Mexico
+"Taos County, New Mexico",32723,Taos,New Mexico
+"Torrance County, New Mexico",15461,Torrance,New Mexico
+"Union County, New Mexico",4059,Union,New Mexico
+"Valencia County, New Mexico",76688,Valencia,New Mexico
+"Albany County, New York",305506,Albany,New York
+"Allegany County, New York",46091,Allegany,New York
+"Bronx County, New York",1418207,Bronx,New York
+"Broome County, New York",190488,Broome,New York
+"Cattaraugus County, New York",76117,Cattaraugus,New York
+"Cayuga County, New York",76576,Cayuga,New York
+"Chautauqua County, New York",126903,Chautauqua,New York
+"Chemung County, New York",83456,Chemung,New York
+"Chenango County, New York",47207,Chenango,New York
+"Clinton County, New York",80485,Clinton,New York
+"Columbia County, New York",59461,Columbia,New York
+"Cortland County, New York",47581,Cortland,New York
+"Delaware County, New York",44135,Delaware,New York
+"Dutchess County, New York",294218,Dutchess,New York
+"Erie County, New York",918702,Erie,New York
+"Essex County, New York",36885,Essex,New York
+"Franklin County, New York",50022,Franklin,New York
+"Fulton County, New York",53383,Fulton,New York
+"Genesee County, New York",57280,Genesee,New York
+"Greene County, New York",47188,Greene,New York
+"Hamilton County, New York",4416,Hamilton,New York
+"Herkimer County, New York",61319,Herkimer,New York
+"Jefferson County, New York",109834,Jefferson,New York
+"Kings County, New York",2559903,Kings,New York
+"Lewis County, New York",26296,Lewis,New York
+"Livingston County, New York",62914,Livingston,New York
+"Madison County, New York",70941,Madison,New York
+"Monroe County, New York",741770,Monroe,New York
+"Montgomery County, New York",49221,Montgomery,New York
+"Nassau County, New York",1356924,Nassau,New York
+"New York County, New York",1628706,New York,New York
+"Niagara County, New York",209281,Niagara,New York
+"Oneida County, New York",228671,Oneida,New York
+"Onondaga County, New York",460528,Onondaga,New York
+"Ontario County, New York",109777,Ontario,New York
+"Orange County, New York",384940,Orange,New York
+"Orleans County, New York",40352,Orleans,New York
+"Oswego County, New York",117124,Oswego,New York
+"Otsego County, New York",59493,Otsego,New York
+"Putnam County, New York",98320,Putnam,New York
+"Queens County, New York",2253858,Queens,New York
+"Rensselaer County, New York",158714,Rensselaer,New York
+"Richmond County, New York",476143,Richmond,New York
+"Rockland County, New York",325789,Rockland,New York
+"St. Lawrence County, New York",107740,St. Lawrence,New York
+"Saratoga County, New York",229863,Saratoga,New York
+"Schenectady County, New York",155299,Schenectady,New York
+"Schoharie County, New York",30999,Schoharie,New York
+"Schuyler County, New York",17807,Schuyler,New York
+"Seneca County, New York",34016,Seneca,New York
+"Steuben County, New York",95379,Steuben,New York
+"Suffolk County, New York",1476601,Suffolk,New York
+"Sullivan County, New York",75432,Sullivan,New York
+"Tioga County, New York",48203,Tioga,New York
+"Tompkins County, New York",102180,Tompkins,New York
+"Ulster County, New York",177573,Ulster,New York
+"Warren County, New York",63944,Warren,New York
+"Washington County, New York",61204,Washington,New York
+"Wayne County, New York",89918,Wayne,New York
+"Westchester County, New York",967506,Westchester,New York
+"Wyoming County, New York",39859,Wyoming,New York
+"Yates County, New York",24913,Yates,New York
+"Alamance County, North Carolina",169509,Alamance,North Carolina
+"Alexander County, North Carolina",37497,Alexander,North Carolina
+"Alleghany County, North Carolina",11137,Alleghany,North Carolina
+"Anson County, North Carolina",24446,Anson,North Carolina
+"Ashe County, North Carolina",27203,Ashe,North Carolina
+"Avery County, North Carolina",17557,Avery,North Carolina
+"Beaufort County, North Carolina",46994,Beaufort,North Carolina
+"Bertie County, North Carolina",18947,Bertie,North Carolina
+"Bladen County, North Carolina",32722,Bladen,North Carolina
+"Brunswick County, North Carolina",142820,Brunswick,North Carolina
+"Buncombe County, North Carolina",261191,Buncombe,North Carolina
+"Burke County, North Carolina",90485,Burke,North Carolina
+"Cabarrus County, North Carolina",216453,Cabarrus,North Carolina
+"Caldwell County, North Carolina",82178,Caldwell,North Carolina
+"Camden County, North Carolina",10867,Camden,North Carolina
+"Carteret County, North Carolina",69473,Carteret,North Carolina
+"Caswell County, North Carolina",22604,Caswell,North Carolina
+"Catawba County, North Carolina",159551,Catawba,North Carolina
+"Chatham County, North Carolina",74470,Chatham,North Carolina
+"Cherokee County, North Carolina",28612,Cherokee,North Carolina
+"Chowan County, North Carolina",13943,Chowan,North Carolina
+"Clay County, North Carolina",11231,Clay,North Carolina
+"Cleveland County, North Carolina",97947,Cleveland,North Carolina
+"Columbus County, North Carolina",55508,Columbus,North Carolina
+"Craven County, North Carolina",102139,Craven,North Carolina
+"Cumberland County, North Carolina",335509,Cumberland,North Carolina
+"Currituck County, North Carolina",27763,Currituck,North Carolina
+"Dare County, North Carolina",37009,Dare,North Carolina
+"Davidson County, North Carolina",167609,Davidson,North Carolina
+"Davie County, North Carolina",42846,Davie,North Carolina
+"Duplin County, North Carolina",58741,Duplin,North Carolina
+"Durham County, North Carolina",321488,Durham,North Carolina
+"Edgecombe County, North Carolina",51472,Edgecombe,North Carolina
+"Forsyth County, North Carolina",382295,Forsyth,North Carolina
+"Franklin County, North Carolina",69685,Franklin,North Carolina
+"Gaston County, North Carolina",224529,Gaston,North Carolina
+"Gates County, North Carolina",11562,Gates,North Carolina
+"Graham County, North Carolina",8441,Graham,North Carolina
+"Granville County, North Carolina",60443,Granville,North Carolina
+"Greene County, North Carolina",21069,Greene,North Carolina
+"Guilford County, North Carolina",537174,Guilford,North Carolina
+"Halifax County, North Carolina",50010,Halifax,North Carolina
+"Harnett County, North Carolina",135976,Harnett,North Carolina
+"Haywood County, North Carolina",62317,Haywood,North Carolina
+"Henderson County, North Carolina",117417,Henderson,North Carolina
+"Hertford County, North Carolina",23677,Hertford,North Carolina
+"Hoke County, North Carolina",55234,Hoke,North Carolina
+"Hyde County, North Carolina",4937,Hyde,North Carolina
+"Iredell County, North Carolina",181806,Iredell,North Carolina
+"Jackson County, North Carolina",43938,Jackson,North Carolina
+"Johnston County, North Carolina",209339,Johnston,North Carolina
+"Jones County, North Carolina",9419,Jones,North Carolina
+"Lee County, North Carolina",61779,Lee,North Carolina
+"Lenoir County, North Carolina",55949,Lenoir,North Carolina
+"Lincoln County, North Carolina",86111,Lincoln,North Carolina
+"McDowell County, North Carolina",45756,McDowell,North Carolina
+"Macon County, North Carolina",35858,Macon,North Carolina
+"Madison County, North Carolina",21755,Madison,North Carolina
+"Martin County, North Carolina",22440,Martin,North Carolina
+"Mecklenburg County, North Carolina",1110356,Mecklenburg,North Carolina
+"Mitchell County, North Carolina",14964,Mitchell,North Carolina
+"Montgomery County, North Carolina",27173,Montgomery,North Carolina
+"Moore County, North Carolina",100880,Moore,North Carolina
+"Nash County, North Carolina",94298,Nash,North Carolina
+"New Hanover County, North Carolina",234473,New Hanover,North Carolina
+"Northampton County, North Carolina",19483,Northampton,North Carolina
+"Onslow County, North Carolina",197938,Onslow,North Carolina
+"Orange County, North Carolina",148476,Orange,North Carolina
+"Pamlico County, North Carolina",12726,Pamlico,North Carolina
+"Pasquotank County, North Carolina",39824,Pasquotank,North Carolina
+"Pender County, North Carolina",63060,Pender,North Carolina
+"Perquimans County, North Carolina",13463,Perquimans,North Carolina
+"Person County, North Carolina",39490,Person,North Carolina
+"Pitt County, North Carolina",180742,Pitt,North Carolina
+"Polk County, North Carolina",20724,Polk,North Carolina
+"Randolph County, North Carolina",143667,Randolph,North Carolina
+"Richmond County, North Carolina",44829,Richmond,North Carolina
+"Robeson County, North Carolina",130625,Robeson,North Carolina
+"Rockingham County, North Carolina",91010,Rockingham,North Carolina
+"Rowan County, North Carolina",142088,Rowan,North Carolina
+"Rutherford County, North Carolina",67029,Rutherford,North Carolina
+"Sampson County, North Carolina",63531,Sampson,North Carolina
+"Scotland County, North Carolina",34823,Scotland,North Carolina
+"Stanly County, North Carolina",62806,Stanly,North Carolina
+"Stokes County, North Carolina",45591,Stokes,North Carolina
+"Surry County, North Carolina",71783,Surry,North Carolina
+"Swain County, North Carolina",14271,Swain,North Carolina
+"Transylvania County, North Carolina",34385,Transylvania,North Carolina
+"Tyrrell County, North Carolina",4016,Tyrrell,North Carolina
+"Union County, North Carolina",239859,Union,North Carolina
+"Vance County, North Carolina",44535,Vance,North Carolina
+"Wake County, North Carolina",1111761,Wake,North Carolina
+"Warren County, North Carolina",19731,Warren,North Carolina
+"Washington County, North Carolina",11580,Washington,North Carolina
+"Watauga County, North Carolina",56177,Watauga,North Carolina
+"Wayne County, North Carolina",123131,Wayne,North Carolina
+"Wilkes County, North Carolina",68412,Wilkes,North Carolina
+"Wilson County, North Carolina",81801,Wilson,North Carolina
+"Yadkin County, North Carolina",37667,Yadkin,North Carolina
+"Yancey County, North Carolina",18069,Yancey,North Carolina
+"Adams County, North Dakota",2216,Adams,North Dakota
+"Barnes County, North Dakota",10415,Barnes,North Dakota
+"Benson County, North Dakota",6832,Benson,North Dakota
+"Billings County, North Dakota",928,Billings,North Dakota
+"ottineau County, North Dakota",6282,ottineau,North Dakota
+"Bowman County, North Dakota",3024,Bowman,North Dakota
+"Burke County, North Dakota",2115,Burke,North Dakota
+"Burleigh County, North Dakota",95626,Burleigh,North Dakota
+"Cass County, North Dakota",181923,Cass,North Dakota
+"Cavalier County, North Dakota",3762,Cavalier,North Dakota
+"Dickey County, North Dakota",4872,Dickey,North Dakota
+"Divide County, North Dakota",2264,Divide,North Dakota
+"Dunn County, North Dakota",4424,Dunn,North Dakota
+"Eddy County, North Dakota",2287,Eddy,North Dakota
+"Emmons County, North Dakota",3241,Emmons,North Dakota
+"Foster County, North Dakota",3210,Foster,North Dakota
+"Golden Valley County, North Dakota",1761,Golden Valley,North Dakota
+"Grand Forks County, North Dakota",69451,Grand Forks,North Dakota
+"Grant County, North Dakota",2274,Grant,North Dakota
+"Griggs County, North Dakota",2231,Griggs,North Dakota
+"Hettinger County, North Dakota",2499,Hettinger,North Dakota
+"Kidder County, North Dakota",2480,Kidder,North Dakota
+"LaMoure County, North Dakota",4046,LaMoure,North Dakota
+"Logan County, North Dakota",1850,Logan,North Dakota
+"McHenry County, North Dakota",5745,McHenry,North Dakota
+"McIntosh County, North Dakota",2497,McIntosh,North Dakota
+"McKenzie County, North Dakota",15024,McKenzie,North Dakota
+"McLean County, North Dakota",9450,McLean,North Dakota
+"Mercer County, North Dakota",8187,Mercer,North Dakota
+"Morton County, North Dakota",31364,Morton,North Dakota
+"Mountrail County, North Dakota",10545,Mountrail,North Dakota
+"Nelson County, North Dakota",2879,Nelson,North Dakota
+"Oliver County, North Dakota",1959,Oliver,North Dakota
+"Pembina County, North Dakota",6801,Pembina,North Dakota
+"Pierce County, North Dakota",3975,Pierce,North Dakota
+"Ramsey County, North Dakota",11519,Ramsey,North Dakota
+"Ransom County, North Dakota",5218,Ransom,North Dakota
+"Renville County, North Dakota",2327,Renville,North Dakota
+"Richland County, North Dakota",16177,Richland,North Dakota
+"Rolette County, North Dakota",14176,Rolette,North Dakota
+"Sargent County, North Dakota",3898,Sargent,North Dakota
+"Sheridan County, North Dakota",1315,Sheridan,North Dakota
+"Sioux County, North Dakota",4230,Sioux,North Dakota
+"Slope County, North Dakota",750,Slope,North Dakota
+"Stark County, North Dakota",31489,Stark,North Dakota
+"Steele County, North Dakota",1890,Steele,North Dakota
+"Stutsman County, North Dakota",20704,Stutsman,North Dakota
+"Towner County, North Dakota",2189,Towner,North Dakota
+"Traill County, North Dakota",8036,Traill,North Dakota
+"Walsh County, North Dakota",10641,Walsh,North Dakota
+"Ward County, North Dakota",67641,Ward,North Dakota
+"Wells County, North Dakota",3834,Wells,North Dakota
+"Williams County, North Dakota",37589,Williams,North Dakota
 "Adams County, Ohio",27698,Adams,Ohio
 "Allen County, Ohio",102351,Allen,Ohio
 "Ashland County, Ohio",53484,Ashland,Ohio
@@ -2122,7 +2122,7 @@ CountyState,Pop,county,state
 "Trumbull County, Ohio",197974,Trumbull,Ohio
 "Tuscarawas County, Ohio",91987,Tuscarawas,Ohio
 "Union County, Ohio",58988,Union,Ohio
-"Van Wert County, Ohio",28275,VanWert,Ohio
+"Van Wert County, Ohio",28275,Van Wert,Ohio
 "Vinton County, Ohio",13085,Vinton,Ohio
 "Warren County, Ohio",234602,Warren,Ohio
 "Washington County, Ohio",59911,Washington,Ohio
@@ -2169,7 +2169,7 @@ CountyState,Pop,county,state
 "Kingfisher County, Oklahoma",15765,Kingfisher,Oklahoma
 "Kiowa County, Oklahoma",8708,Kiowa,Oklahoma
 "Latimer County, Oklahoma",10073,Latimer,Oklahoma
-"Le Flore County, Oklahoma",49853,LeFlore,Oklahoma
+"Le Flore County, Oklahoma",49853,Le Flore,Oklahoma
 "Lincoln County, Oklahoma",34877,Lincoln,Oklahoma
 "Logan County, Oklahoma",48011,Logan,Oklahoma
 "Love County, Oklahoma",10253,Love,Oklahoma
@@ -2194,7 +2194,7 @@ CountyState,Pop,county,state
 "Pontotoc County, Oklahoma",38284,Pontotoc,Oklahoma
 "Pottawatomie County, Oklahoma",72592,Pottawatomie,Oklahoma
 "Pushmataha County, Oklahoma",11096,Pushmataha,Oklahoma
-"Roger Mills County, Oklahoma",3583,RogerMills,Oklahoma
+"Roger Mills County, Oklahoma",3583,Roger Mills,Oklahoma
 "Rogers County, Oklahoma",92459,Rogers,Oklahoma
 "Seminole County, Oklahoma",24258,Seminole,Oklahoma
 "Sequoyah County, Oklahoma",41569,Sequoyah,Oklahoma
@@ -2220,7 +2220,7 @@ CountyState,Pop,county,state
 "Gilliam County, Oregon",1912,Gilliam,Oregon
 "Grant County, Oregon",7199,Grant,Oregon
 "Harney County, Oregon",7393,Harney,Oregon
-"Hood River County, Oregon",23382,HoodRiver,Oregon
+"Hood River County, Oregon",23382,Hood River,Oregon
 "Jackson County, Oregon",220944,Jackson,Oregon
 "Jefferson County, Oregon",24658,Jefferson,Oregon
 "Josephine County, Oregon",87487,Josephine,Oregon
@@ -2310,123 +2310,123 @@ CountyState,Pop,county,state
 "Westmoreland County, Pennsylvania",348899,Westmoreland,Pennsylvania
 "Wyoming County, Pennsylvania",26794,Wyoming,Pennsylvania
 "York County, Pennsylvania",449058,York,Pennsylvania
-"Bristol County, Rhode Island",48479,Bristol,RhodeIsland
-"Kent County, Rhode Island",164292,Kent,RhodeIsland
-"Newport County, Rhode Island",82082,Newport,RhodeIsland
-"Providence County, Rhode Island",638931,Providence,RhodeIsland
-"Washington County, Rhode Island",125577,Washington,RhodeIsland
-"Abbeville County, South Carolina",24527,Abbeville,SouthCarolina
-"Aiken County, South Carolina",170872,Aiken,SouthCarolina
-"Allendale County, South Carolina",8688,Allendale,SouthCarolina
-"Anderson County, South Carolina",202558,Anderson,SouthCarolina
-"Bamberg County, South Carolina",14066,Bamberg,SouthCarolina
-"Barnwell County, South Carolina",20866,Barnwell,SouthCarolina
-"Beaufort County, South Carolina",192122,Beaufort,SouthCarolina
-"Berkeley County, South Carolina",227907,Berkeley,SouthCarolina
-"Calhoun County, South Carolina",14553,Calhoun,SouthCarolina
-"Charleston County, South Carolina",411406,Charleston,SouthCarolina
-"Cherokee County, South Carolina",57300,Cherokee,SouthCarolina
-"Chester County, South Carolina",32244,Chester,SouthCarolina
-"Chesterfield County, South Carolina",45650,Chesterfield,SouthCarolina
-"Clarendon County, South Carolina",33745,Clarendon,SouthCarolina
-"Colleton County, South Carolina",37677,Colleton,SouthCarolina
-"Darlington County, South Carolina",66618,Darlington,SouthCarolina
-"Dillon County, South Carolina",30479,Dillon,SouthCarolina
-"Dorchester County, South Carolina",162809,Dorchester,SouthCarolina
-"Edgefield County, South Carolina",27260,Edgefield,SouthCarolina
-"Fairfield County, South Carolina",22347,Fairfield,SouthCarolina
-"Florence County, South Carolina",138293,Florence,SouthCarolina
-"Georgetown County, South Carolina",62680,Georgetown,SouthCarolina
-"Greenville County, South Carolina",523542,Greenville,SouthCarolina
-"Greenwood County, South Carolina",70811,Greenwood,SouthCarolina
-"Hampton County, South Carolina",19222,Hampton,SouthCarolina
-"Horry County, South Carolina",354081,Horry,SouthCarolina
-"Jasper County, South Carolina",30073,Jasper,SouthCarolina
-"Kershaw County, South Carolina",66551,Kershaw,SouthCarolina
-"Lancaster County, South Carolina",98012,Lancaster,SouthCarolina
-"Laurens County, South Carolina",67493,Laurens,SouthCarolina
-"Lee County, South Carolina",16828,Lee,SouthCarolina
-"Lexington County, South Carolina",298750,Lexington,SouthCarolina
-"McCormick County, South Carolina",9463,McCormick,SouthCarolina
-"Marion County, South Carolina",30657,Marion,SouthCarolina
-"Marlboro County, South Carolina",26118,Marlboro,SouthCarolina
-"Newberry County, South Carolina",38440,Newberry,SouthCarolina
-"Oconee County, South Carolina",79546,Oconee,SouthCarolina
-"Orangeburg County, South Carolina",86175,Orangeburg,SouthCarolina
-"Pickens County, South Carolina",126884,Pickens,SouthCarolina
-"Richland County, South Carolina",415759,Richland,SouthCarolina
-"Saluda County, South Carolina",20473,Saluda,SouthCarolina
-"Spartanburg County, South Carolina",319785,Spartanburg,SouthCarolina
-"Sumter County, South Carolina",106721,Sumter,SouthCarolina
-"Union County, South Carolina",27316,Union,SouthCarolina
-"Williamsburg County, South Carolina",30368,Williamsburg,SouthCarolina
-"York County, South Carolina",280979,York,SouthCarolina
-"Aurora County, South Dakota",2751,Aurora,SouthDakota
-"Beadle County, South Dakota",18453,Beadle,SouthDakota
-"Bennett County, South Dakota",3365,Bennett,SouthDakota
-"Bon Homme County, South Dakota",6901,BonHomme,SouthDakota
-"Brookings County, South Dakota",35077,Brookings,SouthDakota
-"Brown County, South Dakota",38839,Brown,SouthDakota
-"Brule County, South Dakota",5297,Brule,SouthDakota
-"Buffalo County, South Dakota",1962,Buffalo,SouthDakota
-"Butte County, South Dakota",10429,Butte,SouthDakota
-"Campbell County, South Dakota",1376,Campbell,SouthDakota
-"Charles Mix County, South Dakota",9292,CharlesMix,SouthDakota
-"Clark County, South Dakota",3736,Clark,SouthDakota
-"Clay County, South Dakota",14070,Clay,SouthDakota
-"Codington County, South Dakota",28009,Codington,SouthDakota
-"Corson County, South Dakota",4086,Corson,SouthDakota
-"Custer County, South Dakota",8972,Custer,SouthDakota
-"Davison County, South Dakota",19775,Davison,SouthDakota
-"Day County, South Dakota",5424,Day,SouthDakota
-"Deuel County, South Dakota",4351,Deuel,SouthDakota
-"Dewey County, South Dakota",5892,Dewey,SouthDakota
-"Douglas County, South Dakota",2921,Douglas,SouthDakota
-"Edmunds County, South Dakota",3829,Edmunds,SouthDakota
-"Fall River County, South Dakota",6713,FallRiver,SouthDakota
-"Faulk County, South Dakota",2299,Faulk,SouthDakota
-"Grant County, South Dakota",7052,Grant,SouthDakota
-"Gregory County, South Dakota",4185,Gregory,SouthDakota
-"Haakon County, South Dakota",1899,Haakon,SouthDakota
-"Hamlin County, South Dakota",6164,Hamlin,SouthDakota
-"Hand County, South Dakota",3191,Hand,SouthDakota
-"Hanson County, South Dakota",3453,Hanson,SouthDakota
-"Harding County, South Dakota",1298,Harding,SouthDakota
-"Hughes County, South Dakota",17526,Hughes,SouthDakota
-"Hutchinson County, South Dakota",7291,Hutchinson,SouthDakota
-"Hyde County, South Dakota",1301,Hyde,SouthDakota
-"Jackson County, South Dakota",3344,Jackson,SouthDakota
-"Jerauld County, South Dakota",2013,Jerauld,SouthDakota
-"Jones County, South Dakota",903,Jones,SouthDakota
-"Kingsbury County, South Dakota",4939,Kingsbury,SouthDakota
-"Lake County, South Dakota",12797,Lake,SouthDakota
-"Lawrence County, South Dakota",25844,Lawrence,SouthDakota
-"Lincoln County, South Dakota",61128,Lincoln,SouthDakota
-"Lyman County, South Dakota",3781,Lyman,SouthDakota
-"McCook County, South Dakota",5586,McCook,SouthDakota
-"McPherson County, South Dakota",2379,McPherson,SouthDakota
-"Marshall County, South Dakota",4935,Marshall,SouthDakota
-"Meade County, South Dakota",28332,Meade,SouthDakota
-"Mellette County, South Dakota",2061,Mellette,SouthDakota
-"Miner County, South Dakota",2216,Miner,SouthDakota
-"Minnehaha County, South Dakota",193134,Minnehaha,SouthDakota
-"Moody County, South Dakota",6576,Moody,SouthDakota
-"Oglala Lakota County, South Dakota",14177,OglalaLakota,SouthDakota
-"Pennington County, South Dakota",113775,Pennington,SouthDakota
-"Perkins County, South Dakota",2865,Perkins,SouthDakota
-"Potter County, South Dakota",2153,Potter,SouthDakota
-"Roberts County, South Dakota",10394,Roberts,SouthDakota
-"Sanborn County, South Dakota",2344,Sanborn,SouthDakota
-"Spink County, South Dakota",6376,Spink,SouthDakota
-"Stanley County, South Dakota",3098,Stanley,SouthDakota
-"Sully County, South Dakota",1391,Sully,SouthDakota
-"Todd County, South Dakota",10177,Todd,SouthDakota
-"Tripp County, South Dakota",5441,Tripp,SouthDakota
-"Turner County, South Dakota",8384,Turner,SouthDakota
-"Union County, South Dakota",15932,Union,SouthDakota
-"Walworth County, South Dakota",5435,Walworth,SouthDakota
-"Yankton County, South Dakota",22814,Yankton,SouthDakota
-"Ziebach County, South Dakota",2756,Ziebach,SouthDakota
+"Bristol County, Rhode Island",48479,Bristol,Rhode Island
+"Kent County, Rhode Island",164292,Kent,Rhode Island
+"Newport County, Rhode Island",82082,Newport,Rhode Island
+"Providence County, Rhode Island",638931,Providence,Rhode Island
+"Washington County, Rhode Island",125577,Washington,Rhode Island
+"Abbeville County, South Carolina",24527,Abbeville,South Carolina
+"Aiken County, South Carolina",170872,Aiken,South Carolina
+"Allendale County, South Carolina",8688,Allendale,South Carolina
+"Anderson County, South Carolina",202558,Anderson,South Carolina
+"Bamberg County, South Carolina",14066,Bamberg,South Carolina
+"Barnwell County, South Carolina",20866,Barnwell,South Carolina
+"Beaufort County, South Carolina",192122,Beaufort,South Carolina
+"Berkeley County, South Carolina",227907,Berkeley,South Carolina
+"Calhoun County, South Carolina",14553,Calhoun,South Carolina
+"Charleston County, South Carolina",411406,Charleston,South Carolina
+"Cherokee County, South Carolina",57300,Cherokee,South Carolina
+"Chester County, South Carolina",32244,Chester,South Carolina
+"Chesterfield County, South Carolina",45650,Chesterfield,South Carolina
+"Clarendon County, South Carolina",33745,Clarendon,South Carolina
+"Colleton County, South Carolina",37677,Colleton,South Carolina
+"Darlington County, South Carolina",66618,Darlington,South Carolina
+"Dillon County, South Carolina",30479,Dillon,South Carolina
+"Dorchester County, South Carolina",162809,Dorchester,South Carolina
+"Edgefield County, South Carolina",27260,Edgefield,South Carolina
+"Fairfield County, South Carolina",22347,Fairfield,South Carolina
+"Florence County, South Carolina",138293,Florence,South Carolina
+"Georgetown County, South Carolina",62680,Georgetown,South Carolina
+"Greenville County, South Carolina",523542,Greenville,South Carolina
+"Greenwood County, South Carolina",70811,Greenwood,South Carolina
+"Hampton County, South Carolina",19222,Hampton,South Carolina
+"Horry County, South Carolina",354081,Horry,South Carolina
+"Jasper County, South Carolina",30073,Jasper,South Carolina
+"Kershaw County, South Carolina",66551,Kershaw,South Carolina
+"Lancaster County, South Carolina",98012,Lancaster,South Carolina
+"Laurens County, South Carolina",67493,Laurens,South Carolina
+"Lee County, South Carolina",16828,Lee,South Carolina
+"Lexington County, South Carolina",298750,Lexington,South Carolina
+"McCormick County, South Carolina",9463,McCormick,South Carolina
+"Marion County, South Carolina",30657,Marion,South Carolina
+"Marlboro County, South Carolina",26118,Marlboro,South Carolina
+"Newberry County, South Carolina",38440,Newberry,South Carolina
+"Oconee County, South Carolina",79546,Oconee,South Carolina
+"Orangeburg County, South Carolina",86175,Orangeburg,South Carolina
+"Pickens County, South Carolina",126884,Pickens,South Carolina
+"Richland County, South Carolina",415759,Richland,South Carolina
+"Saluda County, South Carolina",20473,Saluda,South Carolina
+"Spartanburg County, South Carolina",319785,Spartanburg,South Carolina
+"Sumter County, South Carolina",106721,Sumter,South Carolina
+"Union County, South Carolina",27316,Union,South Carolina
+"Williamsburg County, South Carolina",30368,Williamsburg,South Carolina
+"York County, South Carolina",280979,York,South Carolina
+"Aurora County, South Dakota",2751,Aurora,South Dakota
+"Beadle County, South Dakota",18453,Beadle,South Dakota
+"Bennett County, South Dakota",3365,Bennett,South Dakota
+"Bon Homme County, South Dakota",6901,Bon Homme,South Dakota
+"Brookings County, South Dakota",35077,Brookings,South Dakota
+"Brown County, South Dakota",38839,Brown,South Dakota
+"Brule County, South Dakota",5297,Brule,South Dakota
+"Buffalo County, South Dakota",1962,Buffalo,South Dakota
+"Butte County, South Dakota",10429,Butte,South Dakota
+"Campbell County, South Dakota",1376,Campbell,South Dakota
+"Charles Mix County, South Dakota",9292,Charles Mix,South Dakota
+"Clark County, South Dakota",3736,Clark,South Dakota
+"Clay County, South Dakota",14070,Clay,South Dakota
+"Codington County, South Dakota",28009,Codington,South Dakota
+"Corson County, South Dakota",4086,Corson,South Dakota
+"Custer County, South Dakota",8972,Custer,South Dakota
+"Davison County, South Dakota",19775,Davison,South Dakota
+"Day County, South Dakota",5424,Day,South Dakota
+"Deuel County, South Dakota",4351,Deuel,South Dakota
+"Dewey County, South Dakota",5892,Dewey,South Dakota
+"Douglas County, South Dakota",2921,Douglas,South Dakota
+"Edmunds County, South Dakota",3829,Edmunds,South Dakota
+"Fall River County, South Dakota",6713,Fall River,South Dakota
+"Faulk County, South Dakota",2299,Faulk,South Dakota
+"Grant County, South Dakota",7052,Grant,South Dakota
+"Gregory County, South Dakota",4185,Gregory,South Dakota
+"Haakon County, South Dakota",1899,Haakon,South Dakota
+"Hamlin County, South Dakota",6164,Hamlin,South Dakota
+"Hand County, South Dakota",3191,Hand,South Dakota
+"Hanson County, South Dakota",3453,Hanson,South Dakota
+"Harding County, South Dakota",1298,Harding,South Dakota
+"Hughes County, South Dakota",17526,Hughes,South Dakota
+"Hutchinson County, South Dakota",7291,Hutchinson,South Dakota
+"Hyde County, South Dakota",1301,Hyde,South Dakota
+"Jackson County, South Dakota",3344,Jackson,South Dakota
+"Jerauld County, South Dakota",2013,Jerauld,South Dakota
+"Jones County, South Dakota",903,Jones,South Dakota
+"Kingsbury County, South Dakota",4939,Kingsbury,South Dakota
+"Lake County, South Dakota",12797,Lake,South Dakota
+"Lawrence County, South Dakota",25844,Lawrence,South Dakota
+"Lincoln County, South Dakota",61128,Lincoln,South Dakota
+"Lyman County, South Dakota",3781,Lyman,South Dakota
+"McCook County, South Dakota",5586,McCook,South Dakota
+"McPherson County, South Dakota",2379,McPherson,South Dakota
+"Marshall County, South Dakota",4935,Marshall,South Dakota
+"Meade County, South Dakota",28332,Meade,South Dakota
+"Mellette County, South Dakota",2061,Mellette,South Dakota
+"Miner County, South Dakota",2216,Miner,South Dakota
+"Minnehaha County, South Dakota",193134,Minnehaha,South Dakota
+"Moody County, South Dakota",6576,Moody,South Dakota
+"Oglala Lakota County, South Dakota",14177,Oglala Lakota,South Dakota
+"Pennington County, South Dakota",113775,Pennington,South Dakota
+"Perkins County, South Dakota",2865,Perkins,South Dakota
+"Potter County, South Dakota",2153,Potter,South Dakota
+"Roberts County, South Dakota",10394,Roberts,South Dakota
+"Sanborn County, South Dakota",2344,Sanborn,South Dakota
+"Spink County, South Dakota",6376,Spink,South Dakota
+"Stanley County, South Dakota",3098,Stanley,South Dakota
+"Sully County, South Dakota",1391,Sully,South Dakota
+"Todd County, South Dakota",10177,Todd,South Dakota
+"Tripp County, South Dakota",5441,Tripp,South Dakota
+"Turner County, South Dakota",8384,Turner,South Dakota
+"Union County, South Dakota",15932,Union,South Dakota
+"Walworth County, South Dakota",5435,Walworth,South Dakota
+"Yankton County, South Dakota",22814,Yankton,South Dakota
+"Ziebach County, South Dakota",2756,Ziebach,South Dakota
 "Anderson County, Tennessee",76978,Anderson,Tennessee
 "Bedford County, Tennessee",49713,Bedford,Tennessee
 "Benton County, Tennessee",16160,Benton,Tennessee
@@ -2514,7 +2514,7 @@ CountyState,Pop,county,state
 "Trousdale County, Tennessee",11284,Trousdale,Tennessee
 "Unicoi County, Tennessee",17883,Unicoi,Tennessee
 "Union County, Tennessee",19972,Union,Tennessee
-"Van Buren County, Tennessee",5872,VanBuren,Tennessee
+"Van Buren County, Tennessee",5872,Van Buren,Tennessee
 "Warren County, Tennessee",41277,Warren,Tennessee
 "Washington County, Tennessee",129375,Washington,Tennessee
 "Wayne County, Tennessee",16673,Wayne,Tennessee
@@ -2580,7 +2580,7 @@ CountyState,Pop,county,state
 "Dallam County, Texas",7287,Dallam,Texas
 "Dallas County, Texas",2635516,Dallas,Texas
 "Dawson County, Texas",12728,Dawson,Texas
-"Deaf Smith County, Texas",18546,DeafSmith,Texas
+"Deaf Smith County, Texas",18546,Deaf Smith,Texas
 "Delta County, Texas",5331,Delta,Texas
 "Denton County, Texas",887207,Denton,Texas
 "DeWitt County, Texas",20160,DeWitt,Texas
@@ -2592,7 +2592,7 @@ CountyState,Pop,county,state
 "Ector County, Texas",166223,Ector,Texas
 "Edwards County, Texas",1932,Edwards,Texas
 "Ellis County, Texas",184826,Ellis,Texas
-"El Paso County, Texas",839238,ElPaso,Texas
+"El Paso County, Texas",839238,El Paso,Texas
 "Erath County, Texas",42698,Erath,Texas
 "Falls County, Texas",17297,Falls,Texas
 "Fannin County, Texas",35514,Fannin,Texas
@@ -2600,7 +2600,7 @@ CountyState,Pop,county,state
 "Fisher County, Texas",3830,Fisher,Texas
 "Floyd County, Texas",5712,Floyd,Texas
 "Foard County, Texas",1155,Foard,Texas
-"Fort Bend County, Texas",811688,FortBend,Texas
+"Fort Bend County, Texas",811688,Fort Bend,Texas
 "Franklin County, Texas",10725,Franklin,Texas
 "Freestone County, Texas",19717,Freestone,Texas
 "Frio County, Texas",20306,Frio,Texas
@@ -2643,10 +2643,10 @@ CountyState,Pop,county,state
 "Jack County, Texas",8935,Jack,Texas
 "Jackson County, Texas",14760,Jackson,Texas
 "Jasper County, Texas",35529,Jasper,Texas
-"Jeff Davis County, Texas",2274,JeffDavis,Texas
+"Jeff Davis County, Texas",2274,Jeff Davis,Texas
 "Jefferson County, Texas",251565,Jefferson,Texas
-"Jim Hogg County, Texas",5200,JimHogg,Texas
-"Jim Wells County, Texas",40482,JimWells,Texas
+"Jim Hogg County, Texas",5200,Jim Hogg,Texas
+"Jim Wells County, Texas",40482,Jim Wells,Texas
 "Johnson County, Texas",175817,Johnson,Texas
 "Jones County, Texas",20083,Jones,Texas
 "Karnes County, Texas",15601,Karnes,Texas
@@ -2663,14 +2663,14 @@ CountyState,Pop,county,state
 "Lamar County, Texas",49859,Lamar,Texas
 "Lamb County, Texas",12893,Lamb,Texas
 "Lampasas County, Texas",21428,Lampasas,Texas
-"La Salle County, Texas",7520,LaSalle,Texas
+"La Salle County, Texas",7520,La Salle,Texas
 "Lavaca County, Texas",20154,Lavaca,Texas
 "Lee County, Texas",17239,Lee,Texas
 "Leon County, Texas",17404,Leon,Texas
 "Liberty County, Texas",88219,Liberty,Texas
 "Limestone County, Texas",23437,Limestone,Texas
 "Lipscomb County, Texas",3233,Lipscomb,Texas
-"Live Oak County, Texas",12207,LiveOak,Texas
+"Live Oak County, Texas",12207,Live Oak,Texas
 "Llano County, Texas",21795,Llano,Texas
 "Loving County, Texas",169,Loving,Texas
 "Lubbock County, Texas",310569,Lubbock,Texas
@@ -2703,7 +2703,7 @@ CountyState,Pop,county,state
 "Ochiltree County, Texas",9836,Ochiltree,Texas
 "Oldham County, Texas",2112,Oldham,Texas
 "Orange County, Texas",83396,Orange,Texas
-"Palo Pinto County, Texas",29189,PaloPinto,Texas
+"Palo Pinto County, Texas",29189,Palo Pinto,Texas
 "Panola County, Texas",23194,Panola,Texas
 "Parker County, Texas",142878,Parker,Texas
 "Parmer County, Texas",9605,Parmer,Texas
@@ -2715,7 +2715,7 @@ CountyState,Pop,county,state
 "Randall County, Texas",137713,Randall,Texas
 "Reagan County, Texas",3849,Reagan,Texas
 "Real County, Texas",3452,Real,Texas
-"Red River County, Texas",12023,RedRiver,Texas
+"Red River County, Texas",12023,Red River,Texas
 "Reeves County, Texas",15976,Reeves,Texas
 "Refugio County, Texas",6948,Refugio,Texas
 "Roberts County, Texas",854,Roberts,Texas
@@ -2724,10 +2724,10 @@ CountyState,Pop,county,state
 "Runnels County, Texas",10264,Runnels,Texas
 "Rusk County, Texas",54406,Rusk,Texas
 "Sabine County, Texas",10542,Sabine,Texas
-"San Augustine County, Texas",8237,SanAugustine,Texas
-"San Jacinto County, Texas",28859,SanJacinto,Texas
-"San Patricio County, Texas",66730,SanPatricio,Texas
-"San Saba County, Texas",6055,SanSaba,Texas
+"San Augustine County, Texas",8237,San Augustine,Texas
+"San Jacinto County, Texas",28859,San Jacinto,Texas
+"San Patricio County, Texas",66730,San Patricio,Texas
+"San Saba County, Texas",6055,San Saba,Texas
 "Schleicher County, Texas",2793,Schleicher,Texas
 "Scurry County, Texas",16703,Scurry,Texas
 "Shackelford County, Texas",3265,Shackelford,Texas
@@ -2747,15 +2747,15 @@ CountyState,Pop,county,state
 "Terry County, Texas",12337,Terry,Texas
 "Throckmorton County, Texas",1501,Throckmorton,Texas
 "Titus County, Texas",32750,Titus,Texas
-"Tom Green County, Texas",119200,TomGreen,Texas
+"Tom Green County, Texas",119200,Tom Green,Texas
 "Travis County, Texas",1273954,Travis,Texas
 "Trinity County, Texas",14651,Trinity,Texas
 "Tyler County, Texas",21672,Tyler,Texas
 "Upshur County, Texas",41753,Upshur,Texas
 "Upton County, Texas",3657,Upton,Texas
 "Uvalde County, Texas",26741,Uvalde,Texas
-"Val Verde County, Texas",49025,ValVerde,Texas
-"Van Zandt County, Texas",56590,VanZandt,Texas
+"Val Verde County, Texas",49025,Val Verde,Texas
+"Van Zandt County, Texas",56590,Van Zandt,Texas
 "Victoria County, Texas",92084,Victoria,Texas
 "Walker County, Texas",72971,Walker,Texas
 "Waller County, Texas",55246,Waller,Texas
@@ -2777,7 +2777,7 @@ CountyState,Pop,county,state
 "Zapata County, Texas",14179,Zapata,Texas
 "Zavala County, Texas",11840,Zavala,Texas
 "Beaver County, Utah",6710,Beaver,Utah
-"Box Elder County, Utah",56046,BoxElder,Utah
+"Box Elder County, Utah",56046,Box Elder,Utah
 "Cache County, Utah",128289,Cache,Utah
 "Carbon County, Utah",20463,Carbon,Utah
 "Daggett County, Utah",950,Daggett,Utah
@@ -2793,8 +2793,8 @@ CountyState,Pop,county,state
 "Morgan County, Utah",12124,Morgan,Utah
 "Piute County, Utah",1479,Piute,Utah
 "Rich County, Utah",2483,Rich,Utah
-"Salt Lake County, Utah",1160437,SaltLake,Utah
-"San Juan County, Utah",15308,SanJuan,Utah
+"Salt Lake County, Utah",1160437,Salt Lake,Utah
+"San Juan County, Utah",15308,San Juan,Utah
 "Sanpete County, Utah",30939,Sanpete,Utah
 "Sevier County, Utah",21620,Sevier,Utah
 "Summit County, Utah",42145,Summit,Utah
@@ -2811,7 +2811,7 @@ CountyState,Pop,county,state
 "Chittenden County, Vermont",163774,Chittenden,Vermont
 "Essex County, Vermont",6163,Essex,Vermont
 "Franklin County, Vermont",49402,Franklin,Vermont
-"Grand Isle County, Vermont",7235,GrandIsle,Vermont
+"Grand Isle County, Vermont",7235,Grand Isle,Vermont
 "Lamoille County, Vermont",25362,Lamoille,Vermont
 "Orange County, Vermont",28892,Orange,Vermont
 "Orleans County, Vermont",27037,Orleans,Vermont
@@ -2837,7 +2837,7 @@ CountyState,Pop,county,state
 "Campbell County, Virginia",54885,Campbell,Virginia
 "Caroline County, Virginia",30725,Caroline,Virginia
 "Carroll County, Virginia",29791,Carroll,Virginia
-"Charles City County, Virginia",6963,CharlesCity,Virginia
+"Charles City County, Virginia",6963,Charles City,Virginia
 "Charlotte County, Virginia",11880,Charlotte,Virginia
 "Chesterfield County, Virginia",352802,Chesterfield,Virginia
 "Clarke County, Virginia",14619,Clarke,Virginia
@@ -2864,11 +2864,11 @@ CountyState,Pop,county,state
 "Henrico County, Virginia",330818,Henrico,Virginia
 "Henry County, Virginia",50557,Henry,Virginia
 "Highland County, Virginia",2190,Highland,Virginia
-"Isle of Wight County, Virginia",37109,IsleofWight,Virginia
-"James City County, Virginia",76523,JamesCity,Virginia
-"King and Queen County, Virginia",7025,KingandQueen,Virginia
-"King George County, Virginia",26836,KingGeorge,Virginia
-"King William County, Virginia",17148,KingWilliam,Virginia
+"Isle of Wight County, Virginia",37109,Isle of Wight,Virginia
+"James City County, Virginia",76523,James City,Virginia
+"King and Queen County, Virginia",7025,King and Queen,Virginia
+"King George County, Virginia",26836,King George,Virginia
+"King William County, Virginia",17148,King William,Virginia
 "Lancaster County, Virginia",10603,Lancaster,Virginia
 "Lee County, Virginia",23423,Lee,Virginia
 "Loudoun County, Virginia",413538,Loudoun,Virginia
@@ -2880,7 +2880,7 @@ CountyState,Pop,county,state
 "Middlesex County, Virginia",10582,Middlesex,Virginia
 "Montgomery County, Virginia",98535,Montgomery,Virginia
 "Nelson County, Virginia",14930,Nelson,Virginia
-"New Kent County, Virginia",23091,NewKent,Virginia
+"New Kent County, Virginia",23091,New Kent,Virginia
 "Northampton County, Virginia",11710,Northampton,Virginia
 "Northumberland County, Virginia",12095,Northumberland,Virginia
 "Nottoway County, Virginia",15232,Nottoway,Virginia
@@ -2889,9 +2889,9 @@ CountyState,Pop,county,state
 "Patrick County, Virginia",17608,Patrick,Virginia
 "Pittsylvania County, Virginia",60354,Pittsylvania,Virginia
 "Powhatan County, Virginia",29652,Powhatan,Virginia
-"Prince Edward County, Virginia",22802,PrinceEdward,Virginia
-"Prince George County, Virginia",38353,PrinceGeorge,Virginia
-"Prince William County, Virginia",470335,PrinceWilliam,Virginia
+"Prince Edward County, Virginia",22802,Prince Edward,Virginia
+"Prince George County, Virginia",38353,Prince George,Virginia
+"Prince William County, Virginia",470335,Prince William,Virginia
 "Pulaski County, Virginia",34027,Pulaski,Virginia
 "Rappahannock County, Virginia",7370,Rappahannock,Virginia
 "Richmond County, Virginia",9023,Richmond,Virginia
@@ -2914,44 +2914,44 @@ CountyState,Pop,county,state
 "Wise County, Virginia",37383,Wise,Virginia
 "Wythe County, Virginia",28684,Wythe,Virginia
 "York County, Virginia",68280,York,Virginia
-"Alexandria city, Virginia",159428,#VALUE!,Virginia
-"Bristol city, Virginia",16762,#VALUE!,Virginia
-"Buena Vista city, Virginia",6478,#VALUE!,Virginia
-"Charlottesville city, Virginia",47266,#VALUE!,Virginia
-"Chesapeake city, Virginia",244835,#VALUE!,Virginia
-"Colonial Heights city, Virginia",17370,#VALUE!,Virginia
-"Covington city, Virginia",5538,#VALUE!,Virginia
-"Danville city, Virginia",40044,#VALUE!,Virginia
-"Emporia city, Virginia",5346,#VALUE!,Virginia
-"Fairfax city, Virginia",24019,#VALUE!,Virginia
-"Falls Church city, Virginia",14617,#VALUE!,Virginia
-"Franklin city, Virginia",7967,#VALUE!,Virginia
-"Fredericksburg city, Virginia",29036,#VALUE!,Virginia
-"Galax city, Virginia",6347,#VALUE!,Virginia
-"Hampton city, Virginia",134510,#VALUE!,Virginia
-"Harrisonburg city, Virginia",53016,#VALUE!,Virginia
-"Hopewell city, Virginia",22529,#VALUE!,Virginia
-"Lexington city, Virginia",7446,#VALUE!,Virginia
-"Lynchburg city, Virginia",82168,#VALUE!,Virginia
-"Manassas city, Virginia",41085,#VALUE!,Virginia
-"Manassas Park city, Virginia",17478,#VALUE!,Virginia
-"Martinsville city, Virginia",12554,#VALUE!,Virginia
-"Newport News city, Virginia",179225,#VALUE!,Virginia
-"Norfolk city, Virginia",242742,#VALUE!,Virginia
-"Norton city, Virginia",3981,#VALUE!,Virginia
-"Petersburg city, Virginia",31346,#VALUE!,Virginia
-"Poquoson city, Virginia",12271,#VALUE!,Virginia
-"Portsmouth city, Virginia",94398,#VALUE!,Virginia
-"Radford city, Virginia",18249,#VALUE!,Virginia
-"Richmond city, Virginia",230436,#VALUE!,Virginia
-"Roanoke city, Virginia",99143,#VALUE!,Virginia
-"Salem city, Virginia",25301,#VALUE!,Virginia
-"Staunton city, Virginia",24932,#VALUE!,Virginia
-"Suffolk city, Virginia",92108,#VALUE!,Virginia
-"Virginia Beach city, Virginia",449974,#VALUE!,Virginia
-"Waynesboro city, Virginia",22630,#VALUE!,Virginia
-"Williamsburg city, Virginia",14954,#VALUE!,Virginia
-"Winchester city, Virginia",28078,#VALUE!,Virginia
+"Alexandria city, Virginia",159428,Alexandria city ,Virginia
+"Bristol city, Virginia",16762,Bristol city ,Virginia
+"Buena Vista city, Virginia",6478,Buena Vista city ,Virginia
+"Charlottesville city, Virginia",47266,Charlottesville city ,Virginia
+"Chesapeake city, Virginia",244835,Chesapeake city ,Virginia
+"Colonial Heights city, Virginia",17370,Colonial Heights city ,Virginia
+"Covington city, Virginia",5538,Covington city ,Virginia
+"Danville city, Virginia",40044,Danville city ,Virginia
+"Emporia city, Virginia",5346,Emporia city ,Virginia
+"Fairfax city, Virginia",24019,Fairfax city ,Virginia
+"Falls Church city, Virginia",14617,Falls Church city ,Virginia
+"Franklin city, Virginia",7967,Franklin city ,Virginia
+"Fredericksburg city, Virginia",29036,Fredericksburg city ,Virginia
+"Galax city, Virginia",6347,Galax city ,Virginia
+"Hampton city, Virginia",134510,Hampton city ,Virginia
+"Harrisonburg city, Virginia",53016,Harrisonburg city ,Virginia
+"Hopewell city, Virginia",22529,Hopewell city ,Virginia
+"Lexington city, Virginia",7446,Lexington city ,Virginia
+"Lynchburg city, Virginia",82168,Lynchburg city ,Virginia
+"Manassas city, Virginia",41085,Manassas city ,Virginia
+"Manassas Park city, Virginia",17478,Manassas Park city ,Virginia
+"Martinsville city, Virginia",12554,Martinsville city ,Virginia
+"Newport News city, Virginia",179225,Newport News city ,Virginia
+"Norfolk city, Virginia",242742,Norfolk city ,Virginia
+"Norton city, Virginia",3981,Norton city ,Virginia
+"Petersburg city, Virginia",31346,Petersburg city ,Virginia
+"Poquoson city, Virginia",12271,Poquoson city ,Virginia
+"Portsmouth city, Virginia",94398,Portsmouth city ,Virginia
+"Radford city, Virginia",18249,Radford city ,Virginia
+"Richmond city, Virginia",230436,Richmond city ,Virginia
+"Roanoke city, Virginia",99143,Roanoke city ,Virginia
+"Salem city, Virginia",25301,Salem city ,Virginia
+"Staunton city, Virginia",24932,Staunton city ,Virginia
+"Suffolk city, Virginia",92108,Suffolk city ,Virginia
+"Virginia Beach city, Virginia",449974, Beach city ,Virginia
+"Waynesboro city, Virginia",22630,Waynesboro city ,Virginia
+"Williamsburg city, Virginia",14954,Williamsburg city ,Virginia
+"Winchester city, Virginia",28078,Winchester city ,Virginia
 "Adams County, Washington",19983,Adams,Washington
 "Asotin County, Washington",22582,Asotin,Washington
 "Benton County, Washington",204390,Benton,Washington
@@ -2965,7 +2965,7 @@ CountyState,Pop,county,state
 "Franklin County, Washington",95222,Franklin,Washington
 "Garfield County, Washington",2225,Garfield,Washington
 "Grant County, Washington",97733,Grant,Washington
-"Grays Harbor County, Washington",75061,GraysHarbor,Washington
+"Grays Harbor County, Washington",75061,Grays Harbor,Washington
 "Island County, Washington",85141,Island,Washington
 "Jefferson County, Washington",32221,Jefferson,Washington
 "King County, Washington",2252782,King,Washington
@@ -2977,9 +2977,9 @@ CountyState,Pop,county,state
 "Mason County, Washington",66768,Mason,Washington
 "Okanogan County, Washington",42243,Okanogan,Washington
 "Pacific County, Washington",22471,Pacific,Washington
-"Pend Oreille County, Washington",13724,PendOreille,Washington
+"Pend Oreille County, Washington",13724,Pend Oreille,Washington
 "Pierce County, Washington",904980,Pierce,Washington
-"San Juan County, Washington",17582,SanJuan,Washington
+"San Juan County, Washington",17582,San Juan,Washington
 "Skagit County, Washington",129205,Skagit,Washington
 "Skamania County, Washington",12083,Skamania,Washington
 "Snohomish County, Washington",822083,Snohomish,Washington
@@ -2987,65 +2987,65 @@ CountyState,Pop,county,state
 "Stevens County, Washington",45723,Stevens,Washington
 "Thurston County, Washington",290536,Thurston,Washington
 "Wahkiakum County, Washington",4488,Wahkiakum,Washington
-"Walla Walla County, Washington",60760,WallaWalla,Washington
+"Walla Walla County, Washington",60760,Walla Walla,Washington
 "Whatcom County, Washington",229247,Whatcom,Washington
 "Whitman County, Washington",50104,Whitman,Washington
 "Yakima County, Washington",250873,Yakima,Washington
-"Barbour County, West Virginia",16441,Barbour,WestVirginia
-"Berkeley County, West Virginia",119171,Berkeley,WestVirginia
-"Boone County, West Virginia",21457,Boone,WestVirginia
-"Braxton County, West Virginia",13957,Braxton,WestVirginia
-"Brooke County, West Virginia",21939,Brooke,WestVirginia
-"Cabell County, West Virginia",91945,Cabell,WestVirginia
-"Calhoun County, West Virginia",7109,Calhoun,WestVirginia
-"Clay County, West Virginia",8508,Clay,WestVirginia
-"Doddridge County, West Virginia",8448,Doddridge,WestVirginia
-"Fayette County, West Virginia",42406,Fayette,WestVirginia
-"Gilmer County, West Virginia",7823,Gilmer,WestVirginia
-"Grant County, West Virginia",11568,Grant,WestVirginia
-"Greenbrier County, West Virginia",34662,Greenbrier,WestVirginia
-"Hampshire County, West Virginia",23175,Hampshire,WestVirginia
-"Hancock County, West Virginia",28810,Hancock,WestVirginia
-"Hardy County, West Virginia",13776,Hardy,WestVirginia
-"Harrison County, West Virginia",67256,Harrison,WestVirginia
-"Jackson County, West Virginia",28576,Jackson,WestVirginia
-"Jefferson County, West Virginia",57146,Jefferson,WestVirginia
-"Kanawha County, West Virginia",178124,Kanawha,WestVirginia
-"Lewis County, West Virginia",15907,Lewis,WestVirginia
-"Lincoln County, West Virginia",20409,Lincoln,WestVirginia
-"Logan County, West Virginia",32019,Logan,WestVirginia
-"McDowell County, West Virginia",17624,McDowell,WestVirginia
-"Marion County, West Virginia",56072,Marion,WestVirginia
-"Marshall County, West Virginia",30531,Marshall,WestVirginia
-"Mason County, West Virginia",26516,Mason,WestVirginia
-"Mercer County, West Virginia",58758,Mercer,WestVirginia
-"Mineral County, West Virginia",26868,Mineral,WestVirginia
-"Mingo County, West Virginia",23424,Mingo,WestVirginia
-"Monongalia County, West Virginia",105612,Monongalia,WestVirginia
-"Monroe County, West Virginia",13275,Monroe,WestVirginia
-"Morgan County, West Virginia",17884,Morgan,WestVirginia
-"Nicholas County, West Virginia",24496,Nicholas,WestVirginia
-"Ohio County, West Virginia",41411,Ohio,WestVirginia
-"Pendleton County, West Virginia",6969,Pendleton,WestVirginia
-"Pleasants County, West Virginia",7460,Pleasants,WestVirginia
-"Pocahontas County, West Virginia",8247,Pocahontas,WestVirginia
-"Preston County, West Virginia",33432,Preston,WestVirginia
-"Putnam County, West Virginia",56450,Putnam,WestVirginia
-"Raleigh County, West Virginia",73361,Raleigh,WestVirginia
-"Randolph County, West Virginia",28695,Randolph,WestVirginia
-"Ritchie County, West Virginia",9554,Ritchie,WestVirginia
-"Roane County, West Virginia",13688,Roane,WestVirginia
-"Summers County, West Virginia",12573,Summers,WestVirginia
-"Taylor County, West Virginia",16695,Taylor,WestVirginia
-"Tucker County, West Virginia",6839,Tucker,WestVirginia
-"Tyler County, West Virginia",8591,Tyler,WestVirginia
-"Upshur County, West Virginia",24176,Upshur,WestVirginia
-"Wayne County, West Virginia",39402,Wayne,WestVirginia
-"Webster County, West Virginia",8114,Webster,WestVirginia
-"Wetzel County, West Virginia",15065,Wetzel,WestVirginia
-"Wirt County, West Virginia",5821,Wirt,WestVirginia
-"Wood County, West Virginia",83518,Wood,WestVirginia
-"Wyoming County, West Virginia",20394,Wyoming,WestVirginia
+"Barbour County, West Virginia",16441,Barbour,West Virginia
+"Berkeley County, West Virginia",119171,Berkeley,West Virginia
+"Boone County, West Virginia",21457,Boone,West Virginia
+"Braxton County, West Virginia",13957,Braxton,West Virginia
+"Brooke County, West Virginia",21939,Brooke,West Virginia
+"Cabell County, West Virginia",91945,Cabell,West Virginia
+"Calhoun County, West Virginia",7109,Calhoun,West Virginia
+"Clay County, West Virginia",8508,Clay,West Virginia
+"Doddridge County, West Virginia",8448,Doddridge,West Virginia
+"Fayette County, West Virginia",42406,Fayette,West Virginia
+"Gilmer County, West Virginia",7823,Gilmer,West Virginia
+"Grant County, West Virginia",11568,Grant,West Virginia
+"Greenbrier County, West Virginia",34662,Greenbrier,West Virginia
+"Hampshire County, West Virginia",23175,Hampshire,West Virginia
+"Hancock County, West Virginia",28810,Hancock,West Virginia
+"Hardy County, West Virginia",13776,Hardy,West Virginia
+"Harrison County, West Virginia",67256,Harrison,West Virginia
+"Jackson County, West Virginia",28576,Jackson,West Virginia
+"Jefferson County, West Virginia",57146,Jefferson,West Virginia
+"Kanawha County, West Virginia",178124,Kanawha,West Virginia
+"Lewis County, West Virginia",15907,Lewis,West Virginia
+"Lincoln County, West Virginia",20409,Lincoln,West Virginia
+"Logan County, West Virginia",32019,Logan,West Virginia
+"McDowell County, West Virginia",17624,McDowell,West Virginia
+"Marion County, West Virginia",56072,Marion,West Virginia
+"Marshall County, West Virginia",30531,Marshall,West Virginia
+"Mason County, West Virginia",26516,Mason,West Virginia
+"Mercer County, West Virginia",58758,Mercer,West Virginia
+"Mineral County, West Virginia",26868,Mineral,West Virginia
+"Mingo County, West Virginia",23424,Mingo,West Virginia
+"Monongalia County, West Virginia",105612,Monongalia,West Virginia
+"Monroe County, West Virginia",13275,Monroe,West Virginia
+"Morgan County, West Virginia",17884,Morgan,West Virginia
+"Nicholas County, West Virginia",24496,Nicholas,West Virginia
+"Ohio County, West Virginia",41411,Ohio,West Virginia
+"Pendleton County, West Virginia",6969,Pendleton,West Virginia
+"Pleasants County, West Virginia",7460,Pleasants,West Virginia
+"Pocahontas County, West Virginia",8247,Pocahontas,West Virginia
+"Preston County, West Virginia",33432,Preston,West Virginia
+"Putnam County, West Virginia",56450,Putnam,West Virginia
+"Raleigh County, West Virginia",73361,Raleigh,West Virginia
+"Randolph County, West Virginia",28695,Randolph,West Virginia
+"Ritchie County, West Virginia",9554,Ritchie,West Virginia
+"Roane County, West Virginia",13688,Roane,West Virginia
+"Summers County, West Virginia",12573,Summers,West Virginia
+"Taylor County, West Virginia",16695,Taylor,West Virginia
+"Tucker County, West Virginia",6839,Tucker,West Virginia
+"Tyler County, West Virginia",8591,Tyler,West Virginia
+"Upshur County, West Virginia",24176,Upshur,West Virginia
+"Wayne County, West Virginia",39402,Wayne,West Virginia
+"Webster County, West Virginia",8114,Webster,West Virginia
+"Wetzel County, West Virginia",15065,Wetzel,West Virginia
+"Wirt County, West Virginia",5821,Wirt,West Virginia
+"Wood County, West Virginia",83518,Wood,West Virginia
+"Wyoming County, West Virginia",20394,Wyoming,West Virginia
 "Adams County, Wisconsin",20220,Adams,Wisconsin
 "Ashland County, Wisconsin",15562,Ashland,Wisconsin
 "Barron County, Wisconsin",45244,Barron,Wisconsin
@@ -3063,13 +3063,13 @@ CountyState,Pop,county,state
 "Door County, Wisconsin",27668,Door,Wisconsin
 "Douglas County, Wisconsin",43150,Douglas,Wisconsin
 "Dunn County, Wisconsin",45368,Dunn,Wisconsin
-"Eau Claire County, Wisconsin",104646,EauClaire,Wisconsin
+"Eau Claire County, Wisconsin",104646,Eau Claire,Wisconsin
 "Florence County, Wisconsin",4295,Florence,Wisconsin
-"Fond du Lac County, Wisconsin",103403,FondduLac,Wisconsin
+"Fond du Lac County, Wisconsin",103403,Fond du Lac,Wisconsin
 "Forest County, Wisconsin",9004,Forest,Wisconsin
 "Grant County, Wisconsin",51439,Grant,Wisconsin
 "Green County, Wisconsin",36960,Green,Wisconsin
-"Green Lake County, Wisconsin",18913,GreenLake,Wisconsin
+"Green Lake County, Wisconsin",18913,Green Lake,Wisconsin
 "Iowa County, Wisconsin",23678,Iowa,Wisconsin
 "Iron County, Wisconsin",5687,Iron,Wisconsin
 "Jackson County, Wisconsin",20643,Jackson,Wisconsin
@@ -3077,7 +3077,7 @@ CountyState,Pop,county,state
 "Juneau County, Wisconsin",26687,Juneau,Wisconsin
 "Kenosha County, Wisconsin",169561,Kenosha,Wisconsin
 "Kewaunee County, Wisconsin",20434,Kewaunee,Wisconsin
-"La Crosse County, Wisconsin",118016,LaCrosse,Wisconsin
+"La Crosse County, Wisconsin",118016,La Crosse,Wisconsin
 "Lafayette County, Wisconsin",16665,Lafayette,Wisconsin
 "Langlade County, Wisconsin",19189,Langlade,Wisconsin
 "Lincoln County, Wisconsin",27593,Lincoln,Wisconsin
@@ -3101,7 +3101,7 @@ CountyState,Pop,county,state
 "Richland County, Wisconsin",17252,Richland,Wisconsin
 "Rock County, Wisconsin",163354,Rock,Wisconsin
 "Rusk County, Wisconsin",14178,Rusk,Wisconsin
-"St. Croix County, Wisconsin",90687,St.Croix,Wisconsin
+"St. Croix County, Wisconsin",90687,St. Croix,Wisconsin
 "Sauk County, Wisconsin",64442,Sauk,Wisconsin
 "Sawyer County, Wisconsin",16558,Sawyer,Wisconsin
 "Shawano County, Wisconsin",40899,Shawano,Wisconsin
@@ -3119,14 +3119,14 @@ CountyState,Pop,county,state
 "Winnebago County, Wisconsin",171907,Winnebago,Wisconsin
 "Wood County, Wisconsin",72999,Wood,Wisconsin
 "Albany County, Wyoming",38880,Albany,Wyoming
-"Big Horn County, Wyoming",11790,BigHorn,Wyoming
+"Big Horn County, Wyoming",11790,Big Horn,Wyoming
 "Campbell County, Wyoming",46341,Campbell,Wyoming
 "Carbon County, Wyoming",14800,Carbon,Wyoming
 "Converse County, Wyoming",13822,Converse,Wyoming
 "Crook County, Wyoming",7584,Crook,Wyoming
 "Fremont County, Wyoming",39261,Fremont,Wyoming
 "Goshen County, Wyoming",13211,Goshen,Wyoming
-"Hot Springs County, Wyoming",4413,HotSprings,Wyoming
+"Hot Springs County, Wyoming",4413,Hot Springs,Wyoming
 "Johnson County, Wyoming",8445,Johnson,Wyoming
 "Laramie County, Wyoming",99500,Laramie,Wyoming
 "Lincoln County, Wyoming",19830,Lincoln,Wyoming
