@@ -22,7 +22,7 @@ global todaystring
 county_pop_data = pd.read_csv('county_pops_census2019.csv')
 
 data_pull_freq_mins_source = 60 
-data_pull_freq_mins_local = 5
+data_pull_freq_mins_local = 10
 
 def get_new_data_sql():
     global df, dfstate, todaystring
@@ -44,7 +44,8 @@ def get_new_data_sql():
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
         print('Initiating new data pull source_new:  %s'%(todaystring_now))
-        update_table_data()
+        a=update_table_data()
+        a.run()
         todaystring = last_updated()
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")

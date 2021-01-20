@@ -3,14 +3,19 @@ import pandas as pd
 import os
 import time
 import datetime, time, pytz
+import sys
+import threading
 
-def update_table_data():
-    conn = sqlite3.connect('covid_data.db')
-    df = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv')
-    df.to_sql('counties', conn, if_exists='replace')
-    dfstate = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
-    dfstate.to_sql('states', conn, if_exists='replace')
-    conn.close()
+
+class update_table_data(threading.Thread):
+    def run(self):
+        conn = sqlite3.connect('covid_data.db')
+        df = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv')
+        df.to_sql('counties', conn, if_exists='replace')
+        dfstate = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
+        dfstate.to_sql('states', conn, if_exists='replace')
+        conn.close()
+        return None
     
 def pull_table_data():
     conn = sqlite3.connect('covid_data.db')
