@@ -26,7 +26,7 @@ data_pull_freq_mins_local = 10
 
 def get_new_data_sql():
     global df, dfstate, todaystring
-    if os.path.exists('covid_data.db'):
+    if db_exists_and_has_tables():#os.path.exists('covid_data.db'):
         todaystring = last_updated()
         time_since_updated = how_long_since_last_updated()
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
