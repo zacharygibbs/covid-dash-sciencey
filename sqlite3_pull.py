@@ -40,11 +40,14 @@ def last_updated():
 
 def db_exists_and_has_tables():
     a=os.path.exists('covid_data.db')
-    conn = sqlite3.connect('covid_data.db')
-    cur = conn.cursor()
-    cur.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;")
-    tables = list(zip(*cur.fetchall()))[0]
-    b = 'states' in tables
-    c = 'counties' in tables
-    conn.close()
-    return a and b and c
+    if a:
+        conn = sqlite3.connect('covid_data.db')
+        cur = conn.cursor()
+        cur.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;")
+        tables = list(zip(*cur.fetchall()))[0]
+        b = 'states' in tables
+        c = 'counties' in tables
+        conn.close()
+        return b and c
+    else:
+        return False

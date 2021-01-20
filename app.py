@@ -37,8 +37,10 @@ def get_new_data_sql():
             today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
             todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
             print('Initiating new data pull source:  %s'%(todaystring_now))
-            x = threading.Thread(target=update_table_data, args=())
-            x.start()#update_table_data()
+            #x = threading.Thread(target=update_table_data, args=())
+            #x.start()#
+            a=update_table_data()
+            a.run()
         return df, dfstate
     else:
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
