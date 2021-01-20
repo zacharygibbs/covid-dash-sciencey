@@ -5,3 +5,4 @@ venv_copy
 .env
 app.py_copy
 us-*.csv
+covid_data.db
