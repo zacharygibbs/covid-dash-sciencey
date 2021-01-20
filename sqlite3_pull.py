@@ -30,4 +30,5 @@ def last_updated():
     today = datetime.datetime.fromtimestamp(statbuf.st_mtime).astimezone(pytz.timezone('US/Central'))
     todaystring = today.strftime("%m-%d-%Y %H:%M:%S")
     todaystring = todaystring + ' Central'
+    pass
     return todaystring

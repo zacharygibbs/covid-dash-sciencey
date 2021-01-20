@@ -50,6 +50,7 @@ def get_new_data_sql():
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
         print('Initiating new data pull local:  %s'%(todaystring_now))
         df, dfstate =  pull_table_data()
+        pass
         return df, dfstate
 
 
@@ -419,3 +420,4 @@ app.css.append_css({
 if __name__ == '__main__':
     app.run_server(debug=True,port=8080,host='0.0.0.0')
     #app.run_server(debug=False)
+
