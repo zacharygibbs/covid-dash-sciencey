@@ -9,7 +9,7 @@ import threading
 
 class update_table_data(threading.Thread):
     def run(self):
-        conn = sqlite3.connect('covid_data.db')
+        conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
         df = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv')
         df.to_sql('counties', conn, if_exists='replace')
         dfstate = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
@@ -18,7 +18,7 @@ class update_table_data(threading.Thread):
         return None
     
 def pull_table_data():
-    conn = sqlite3.connect('covid_data.db')
+    conn = sqlite3.connect('covid_data.db', check_same_thread=False, timeout=3000)
     df = pd.read_sql('SELECT * FROM counties', conn)
     dfstate = pd.read_sql('SELECT * FROM states', conn)
     conn.close()
@@ -41,7 +41,7 @@ def last_updated():
 def db_exists_and_has_tables():
     a=os.path.exists('covid_data.db')
     if a:
-        conn = sqlite3.connect('covid_data.db')
+        conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
         cur = conn.cursor()
         cur.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;")
         tables = list(zip(*cur.fetchall()))[0]
