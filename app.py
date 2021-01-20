@@ -21,8 +21,8 @@ global todaystring
 
 county_pop_data = pd.read_csv('county_pops_census2019.csv')
 
-data_pull_freq_mins_source = 60 
-data_pull_freq_mins_local = 10
+data_pull_freq_mins_source = 1 
+data_pull_freq_mins_local = .5
 
 def get_new_data_sql():
     global df, dfstate, todaystring
