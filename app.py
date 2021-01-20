@@ -9,13 +9,48 @@ import datetime, time, pytz
 import numpy as np
 import os
 from dash.exceptions import PreventUpdate
+import sqlite3
+from sqlite3_pull import *
 
+import logging
+import threading
+import time
 
 global df, dfstate
 global todaystring
 
 county_pop_data = pd.read_csv('county_pops_census2019.csv')
 
+data_pull_freq_mins_source = 60 
+data_pull_freq_mins_local = 5
+
+def get_new_data_sql():
+    global df, dfstate, todaystring
+    if os.path.exists('covid_data.db'):
+        todaystring = last_updated()
+        time_since_updated = how_long_since_last_updated()
+        today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
+        todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
+        print('Initiating new data pull local:  %s'%(todaystring_now))
+        df, dfstate =  pull_table_data()
+        if time_since_updated > data_pull_freq_mins_source*60:
+            today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
+            todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
+            print('Initiating new data pull source:  %s'%(todaystring_now))
+            x = threading.Thread(target=update_table_data, args=())
+            x.start()#update_table_data()
+        return df, dfstate
+    else:
+        today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
+        todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
+        print('Initiating new data pull source_new:  %s'%(todaystring_now))
+        update_table_data()
+        todaystring = last_updated()
+        today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
+        todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
+        print('Initiating new data pull local:  %s'%(todaystring_now))
+        df, dfstate =  pull_table_data()
+        return df, dfstate
 
 
 def get_new_data():
@@ -59,7 +94,7 @@ def get_new_data():
         for oldcsv in files:
             os.remove(os.path.join(basepath and basepath or '', oldcsv))
     return df, dfstate
-df, dfstate = get_new_data()
+df, dfstate = get_new_data_sql()
 #statedf = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
 def get_chartdata1(state,county,stat='cases', popnorm=False):
     if county:
@@ -249,13 +284,13 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                     ])
                                                 ]) 
         ]),
-    dcc.Interval(id='interval-component',interval=1000*60*60, n_intervals=0),
+    dcc.Interval(id='interval-component',interval=1000*data_pull_freq_mins_local*60, n_intervals=0),
 ])
 
 @app.callback([Output('date-label','children')],
         [Input('interval-component', 'n_intervals')])
 def interval_update(numint):
-    get_new_data()
+    get_new_data_sql()
     return ['Data Last Updated: %s'%(todaystring)]
 
 @app.callback(
@@ -382,5 +417,5 @@ app.css.append_css({
 
 
 if __name__ == '__main__':
-    #app.run_server(debug=True,port=8080,host='0.0.0.0')
-    app.run_server(debug=False)
+    app.run_server(debug=True,port=8080,host='0.0.0.0')
+    #app.run_server(debug=False)
