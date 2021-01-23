@@ -36,22 +36,17 @@ def get_new_data_sql():
             today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
             todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
             print('Initiating new data pull source:  %s'%(todaystring_now))
-            #x = threading.Thread(target=update_table_data, args=())
-            #x.start()#
-            a=update_table_data()
-            a.run()
+            update_table_data()
+            
         return None
     else:
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
         print('Initiating new data pull source_new:  %s'%(todaystring_now))
-        a=update_table_data()
-        a.run()
+        update_table_data()
         todaystring = last_updated()
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
-        #print('Initiating new data pull local:  %s'%(todaystring_now))
-        #df, dfstate =  pull_table_data()
         pass
         return None
 

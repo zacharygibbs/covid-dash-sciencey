@@ -6,16 +6,30 @@ import datetime, time, pytz
 import sys
 import threading
 
+import psutil 
 
-class update_table_data(threading.Thread):
-    def run(self):
+def is_open(path):
+    for proc in psutil.process_iter():
+        try:
+            files = proc.get_open_files()
+            if files:
+                for _file in files:
+                    if _file.path == path:
+                        return True    
+        except psutil.NoSuchProcess as err:
+            print(err)
+    return False
+
+
+def update_table_data():
+    if not is_open('covid_data.db'):
         conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
         df = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv')
         df.to_sql('counties', conn, if_exists='replace')
         dfstate = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
         dfstate.to_sql('states', conn, if_exists='replace')
         conn.close()
-        return None
+    return None
     
 def pull_table_data():
     conn = sqlite3.connect('covid_data.db', check_same_thread=False, timeout=3000)
