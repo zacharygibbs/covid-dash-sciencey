@@ -51,3 +51,33 @@ def db_exists_and_has_tables():
         return b and c
     else:
         return False
+
+def county_df(state,county):
+    conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
+    res=pd.read_sql("""
+                        SELECT * FROM counties WHERE state="%s" and county="%s"
+                        
+                        """%(state, county),conn)
+    conn.close()
+    return res
+           
+def state_df(state):
+    conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
+    res=pd.read_sql("""
+                        SELECT * FROM states WHERE state="%s"
+                            """%(state),conn)
+    conn.close()
+    return res
+                       
+def state_counties(state):
+    conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
+    res=pd.read_sql('SELECT * FROM counties WHERE state="%s"'%(state),conn)
+    conn.close()
+    return res
+
+def state_dropdown(state):
+    conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
+    res=pd.read_sql('SELECT state,cases FROM states'%(state),conn)
+    conn.close()
+    return res['state'], res['cases']:
+
