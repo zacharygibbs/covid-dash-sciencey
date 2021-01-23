@@ -135,23 +135,12 @@ def get_chartdata(states,counties,stat='cases',popnorm=False):
 
 ##Set initial state of dashboard
 state0 = ['Oklahoma']
+state0_labels, state_cases0_labels = zip(*state_dropdown())
 
-dfstate = state_df('*')
-
-dfstate_filtered = dfstate[(dfstate['date']==np.max(dfstate.date))]
-dfstate_sorted = dfstate_filtered.sort_values('cases',ascending=False)
-state0_labels = dfstate_sorted.state
-cases0_labels = dfstate_sorted.cases
-
-county0 = ['Washington']
-stat0='cases'
-df = county_df(state0, county0)
-x0, y0 = get_chartdata(state0,county0,stat0)
-#x0, y0 = list(zip(*result))
-
+county0_labels, county_cases0_labels = zip(*county_dropdown(state0[0]))
+global x0, y0, dy0
+x0, y0 = get_chartdata(state0,None, 'cases',False)
 dy0 = [np.diff(i) for i in y0]
-
-
 external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css']
 server = flask.Flask(__name__)
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets,server=server)
@@ -160,7 +149,7 @@ colors = {
     'text': '#000000'
 }
 
-
+#import pdb;pdb.set_trace()
 app.layout = html.Div(style={'backgroundColor': colors['background']}, 
                 children=[ html.Div(className='row', children =[
                                                                 html.H1(
@@ -183,7 +172,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                 html.Label('State'),
                                                 dcc.Dropdown( id='state_dropdown',
                                                     options=[
-                                                        {'label':'%s-%i'%(i,j), 'value':i} for (i,j) in zip(state0_labels, cases0_labels)
+                                                        {'label':'%s-%i'%(i,j), 'value':i} for (i,j) in zip(state0_labels, state_cases0_labels)
                                                     ],
                                                     value=state0,
                                                     multi=True
@@ -191,9 +180,9 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                 html.Label('County'),
                                                 dcc.Dropdown( id='county_dropdown',
                                                     options=[
-                                                        {'label':i, 'value':i} for i in np.sort(df.county.unique())
+                                                        {'label':'%s-%i'%(i,j), 'value':i} for (i,j) in zip(county0_labels, county_cases0_labels)
                                                     ],
-                                                    value=county0,
+                                                    value=[],
                                                     multi=True,
                                                     placeholder = 'Select a County'
                                                 ),
@@ -205,7 +194,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                         {'label': 'Cases', 'value': 'cases'},
                                                         {'label': 'Deaths', 'value': 'deaths'},
                                                     ],
-                                                    value=stat0
+                                                    value='cases'
                                                 ),
                                                 dcc.Checklist(
                                                         id='checkbox_7davg',
@@ -306,14 +295,8 @@ def update_countydropdown(statevals):
     if len(statevals)>1 or len(statevals)==0:
         return [],[]
     else:
-        df_filtered = state_counties(statevals)#df[(df['state']==statevals[0]) & (df['date']==np.max(df.date))]
-        df_filtered = df_filtered[df_filtered['date']==np.max(df_filtered)['date']]
-        df_sorted = df_filtered.sort_values('cases',ascending=False)
-        county = df_sorted.county
-        cases = df_sorted.cases
-        #.county.unique()
-        #import pdb;pdb.set_trace()
-        return [{'label':'%s-%i'%(i,j), 'value':i} for (i,j) in zip(county, cases)], None
+        res = county_dropdown(statevals[0])
+        return [{'label':'%s-%i'%(i,j), 'value':i} for (i,j) in res], None
 
 
 
@@ -337,12 +320,12 @@ def update_countydropdownplaceholder(statevals):
     )
 def update_charts(stat,scale,statevals,countyvals, sevenday):
     if 'popnorm' in sevenday:
-            popnorm = True
+        popnorm = True
     else:
-            popnorm = False
+        popnorm = False
     xs,ys = get_chartdata(statevals, countyvals,stat,popnorm)
+    dys = [np.diff(i) for i in ys] 
     
-    dys = [np.diff(i) for i in ys]  
     if countyvals:
         if statevals:
             chart_text = ['%s-%s'%(statevals[0],county) for county in countyvals]
@@ -424,6 +407,6 @@ app.css.append_css({
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True,port=8080,host='0.0.0.0')
-    #app.run_server(debug=False)
+    #app.run_server(debug=True,port=8080,host='0.0.0.0')
+    app.run_server(debug=False)
 
