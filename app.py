@@ -30,8 +30,8 @@ def get_new_data_sql():
         time_since_updated = how_long_since_last_updated()
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
-        print('Initiating new data pull local:  %s'%(todaystring_now))
-        df, dfstate =  pull_table_data()
+        #print('Initiating new data pull local:  %s'%(todaystring_now))
+        #df, dfstate =  pull_table_data()
         if time_since_updated > data_pull_freq_mins_source*60:
             today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
             todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
@@ -40,7 +40,7 @@ def get_new_data_sql():
             #x.start()#
             a=update_table_data()
             a.run()
-        return df, dfstate
+        return None
     else:
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
@@ -50,10 +50,10 @@ def get_new_data_sql():
         todaystring = last_updated()
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
-        print('Initiating new data pull local:  %s'%(todaystring_now))
-        df, dfstate =  pull_table_data()
+        #print('Initiating new data pull local:  %s'%(todaystring_now))
+        #df, dfstate =  pull_table_data()
         pass
-        return df, dfstate
+        return None
 
 
 def get_new_data():
