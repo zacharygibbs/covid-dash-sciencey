@@ -16,7 +16,6 @@ import logging
 import threading
 import time
 
-global df, dfstate
 global todaystring
 
 county_pop_data = pd.read_csv('county_pops_census2019.csv')
@@ -25,7 +24,7 @@ data_pull_freq_mins_source = 60
 data_pull_freq_mins_local = 10
 
 def get_new_data_sql():
-    global df, dfstate, todaystring
+    global todaystring
     if db_exists_and_has_tables():#os.path.exists('covid_data.db'):
         todaystring = last_updated()
         time_since_updated = how_long_since_last_updated()
@@ -58,7 +57,6 @@ def get_new_data_sql():
 
 
 def get_new_data():
-    global df, dfstate, todaystring
     today = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
     todaystring = today.strftime("%m-%d-%Y %H:%M:%S")
     todaystring = todaystring + 'Central'
@@ -98,9 +96,11 @@ def get_new_data():
         for oldcsv in files:
             os.remove(os.path.join(basepath and basepath or '', oldcsv))
     return df, dfstate
-df, dfstate = get_new_data_sql()
-#statedf = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
+get_new_data_sql()
+
 def get_chartdata1(state,county,stat='cases', popnorm=False):
+    df = county_df(state, county)
+    dfstate = state_df(state)
     if county:
         x = df.date[(df['state'] == state) & (df['county']==county)]
         if popnorm:
@@ -136,6 +136,8 @@ def get_chartdata(states,counties,stat='cases',popnorm=False):
 ##Set initial state of dashboard
 state0 = ['Oklahoma']
 
+dfstate = state_df('*')
+
 dfstate_filtered = dfstate[(dfstate['date']==np.max(dfstate.date))]
 dfstate_sorted = dfstate_filtered.sort_values('cases',ascending=False)
 state0_labels = dfstate_sorted.state
@@ -143,6 +145,7 @@ cases0_labels = dfstate_sorted.cases
 
 county0 = ['Washington']
 stat0='cases'
+df = county_df(state0, county0)
 x0, y0 = get_chartdata(state0,county0,stat0)
 #x0, y0 = list(zip(*result))
 
@@ -181,7 +184,6 @@ app.layout = html.Div(style={'backgroundColor': colors['background']},
                                                 dcc.Dropdown( id='state_dropdown',
                                                     options=[
                                                         {'label':'%s-%i'%(i,j), 'value':i} for (i,j) in zip(state0_labels, cases0_labels)
-                                                        #{'label':i, 'value':i} for i in np.sort(df.state.unique())
                                                     ],
                                                     value=state0,
                                                     multi=True
@@ -304,7 +306,8 @@ def update_countydropdown(statevals):
     if len(statevals)>1 or len(statevals)==0:
         return [],[]
     else:
-        df_filtered = df[(df['state']==statevals[0]) & (df['date']==np.max(df.date))]
+        df_filtered = state_counties(statevals)#df[(df['state']==statevals[0]) & (df['date']==np.max(df.date))]
+        df_filtered = df_filtered[df_filtered['date']==np.max(df_filtered)['date']]
         df_sorted = df_filtered.sort_values('cases',ascending=False)
         county = df_sorted.county
         cases = df_sorted.cases
@@ -421,6 +424,6 @@ app.css.append_css({
 
 
 if __name__ == '__main__':
-    #app.run_server(debug=True,port=8080,host='0.0.0.0')
-    app.run_server(debug=False)
+    app.run_server(debug=True,port=8080,host='0.0.0.0')
+    #app.run_server(debug=False)
 
