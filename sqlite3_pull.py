@@ -6,33 +6,18 @@ import datetime, time, pytz
 import sys
 import threading
 
-import psutil 
-
-def is_open(path):
-    for proc in psutil.process_iter():
-        try:
-            files = proc.get_open_files()
-            if files:
-                for _file in files:
-                    if _file.path == path:
-                        return True    
-        except psutil.NoSuchProcess as err:
-            print(err)
-    return False
-
 
 def update_table_data():
-    if not is_open('covid_data.db'):
-        conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
-        df = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv')
-        df.to_sql('counties', conn, if_exists='replace')
-        dfstate = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
-        dfstate.to_sql('states', conn, if_exists='replace')
-        conn.close()
+    conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
+    df = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv')
+    df.to_sql('counties', conn, if_exists='replace')
+    dfstate = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
+    dfstate.to_sql('states', conn, if_exists='replace')
+    conn.close()
     return None
     
 def pull_table_data():
-    conn = sqlite3.connect('covid_data.db', check_same_thread=False, timeout=3000)
+    conn = sqlite3.connect('covid_data.db', check_same_thread=True, timeout=3000)
     df = pd.read_sql('SELECT * FROM counties', conn)
     dfstate = pd.read_sql('SELECT * FROM states', conn)
     conn.close()
@@ -55,7 +40,7 @@ def last_updated():
 def db_exists_and_has_tables():
     a=os.path.exists('covid_data.db')
     if a:
-        conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
+        conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
         cur = conn.cursor()
         cur.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;")
         tables = list(zip(*cur.fetchall()))[0]
@@ -67,7 +52,7 @@ def db_exists_and_has_tables():
         return False
 
 def county_df(state,county):
-    conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
+    conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
     res=pd.read_sql("""
                         SELECT * FROM counties WHERE state="%s" and county="%s"
                         
@@ -76,7 +61,7 @@ def county_df(state,county):
     return res
            
 def state_df(state):
-    conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
+    conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
     res=pd.read_sql("""
                         SELECT * FROM states WHERE state="%s"
                             """%(state),conn)
@@ -84,13 +69,13 @@ def state_df(state):
     return res
                        
 def state_counties(state):
-    conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
+    conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
     res=pd.read_sql('SELECT * FROM counties WHERE state="%s"'%(state),conn)
     conn.close()
     return res
 
 def state_dropdown():
-    conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
+    conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
     res=pd.read_sql("""
                         SELECT * FROM states
                         WHERE date=(SELECT max(date) from states)
@@ -100,7 +85,7 @@ def state_dropdown():
     return list(zip(res['state'], res['cases']))
 
 def county_dropdown(state):
-    conn = sqlite3.connect('covid_data.db',check_same_thread=False,timeout=3000)
+    conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
     res=pd.read_sql("""
                         SELECT * FROM counties
                         WHERE date=(SELECT max(date) from counties) AND state="%s"
