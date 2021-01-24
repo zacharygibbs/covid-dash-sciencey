@@ -1,5 +1,5 @@
 #### To do on dev branch
-#### 1) add a "US" calc that sums all the state data.
+#### 1) DONE! add a "US" calc that sums all the state data.
 #### 2) add ability to pull data from multiple state counties for comparison
 ####    approach - if multiple states are selected - change county dropdown to use a (state/county) form w/ all the counties from both states
 #### 3) have dropdown #'s update with cases, deaths, or normalized values depending on what's selected?
