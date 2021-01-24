@@ -1,3 +1,12 @@
+#### To do on dev branch
+#### 1) add a "US" calc that sums all the state data.
+#### 2) add ability to pull data from multiple state counties for comparison
+####    approach - if multiple states are selected - change county dropdown to use a (state/county) form w/ all the counties from both states
+#### 3) have dropdown #'s update with cases, deaths, or normalized values depending on what's selected?
+#### 4) add checkbox to remove raw data and only leave trend lines? Consider doing weekly charting as well?
+#### 5) Make charts prettier?
+#### 6) extend to entire world?
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -112,7 +121,10 @@ def get_chartdata1(state,county, df_in, stat='cases', popnorm=False):
         
         x = dfstate.date[dfstate['state'] == state]
         if popnorm:
-            statepop = county_pop_data[county_pop_data['state']==state]['Pop'].sum()
+            if state=='US':
+                statepop = county_pop_data['Pop'].sum()
+            else:
+                statepop = county_pop_data[county_pop_data['state']==state]['Pop'].sum()
             y = dfstate[dfstate['state'] == state][stat] / statepop * 1000
         else:
             y = dfstate[dfstate['state'] == state][stat]

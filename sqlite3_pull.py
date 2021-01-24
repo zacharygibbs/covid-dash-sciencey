@@ -12,6 +12,16 @@ def update_table_data():
     df = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv')
     df.to_sql('counties', conn, if_exists='replace')
     dfstate = pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
+    asa = dfstate.pivot(index='date',columns='state',values='cases').sum(axis=1)
+    asa = asa.reset_index()
+    asa.columns = ['date', 'cases']
+    asb = dfstate.pivot(index='date',columns='state',values='deaths').sum(axis=1)
+    asa['deaths'] = asb.values
+    asa['state'] = 'US'
+    asa['fips']=0
+    asa = asa[dfstate.columns]
+    dfstate = pd.concat([dfstate, asa])
+    dfstate = dfstate.reset_index(drop=True)
     dfstate.to_sql('states', conn, if_exists='replace')
     conn.close()
     return None
