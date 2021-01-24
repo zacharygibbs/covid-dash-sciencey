@@ -17,8 +17,8 @@ import threading
 import time
 import random
 
-global todaystring
-
+global todaystring, df_counties
+df_counties = pd.DataFrame({'state':['ca', 'ac']})
 county_pop_data = pd.read_csv('county_pops_census2019.csv')
 
 data_pull_freq_mins_source = 60 
@@ -92,7 +92,7 @@ def get_new_data():
         for oldcsv in files:
             os.remove(os.path.join(basepath and basepath or '', oldcsv))
     return df, dfstate
-wait_time = random.randint(5,60)
+wait_time = random.randint(5,30)
 print('my node waiting %i seconds' %(wait_time))
 time.sleep(wait_time)
 get_new_data_sql()
@@ -124,9 +124,18 @@ def get_chartdata(states,counties,stat='cases',popnorm=False):
         df = state_df_many(states)
     for state in states:
         if counties:
-            df = county_df_many(state, counties)
+            #df = county_df_many(state, counties)
+            if 'df_counties' in dir():
+                if df_counties.iloc[0]['state']=='state':
+                    pass
+                else:
+                    df_counties = county_df_many(state, '*')
+            else:
+                df_counties = county_df_many(state, '*')
+            ### Would like to load all counties for a particular state into memory for faster load?
+            ### could check whether that state had already been loaded into global df; if not - then load new
             for county in counties:
-                output.append(get_chartdata1(state,county, df[df['county']==county], stat, popnorm))
+                output.append(get_chartdata1(state,county, df_counties, stat, popnorm))
         else:
             output.append(get_chartdata1(state,None, df[df['state']==state], stat, popnorm))
     if len(states)>0:
@@ -139,7 +148,7 @@ state0 = ['Oklahoma']
 state0_labels, state_cases0_labels = zip(*state_dropdown())
 
 county0_labels, county_cases0_labels = zip(*county_dropdown(state0[0]))
-global x0, y0, dy0
+#global x0, y0, dy0
 x0, y0 = get_chartdata(state0,None, 'cases',False)
 dy0 = [np.diff(i) for i in y0]
 external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css']

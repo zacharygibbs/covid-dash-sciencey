@@ -73,7 +73,10 @@ def state_df(state):
 
 def county_df_many(state,countys):
     conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
-    res=pd.read_sql("""
+    if countys=='*':
+        res=pd.read_sql('SELECT * FROM counties WHERE state="%s"'%(state),conn)
+    else:
+        res=pd.read_sql("""
                         SELECT * FROM counties WHERE 
                         state="%s" AND
                         county IN (%s)
