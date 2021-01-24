@@ -70,6 +70,24 @@ def state_df(state):
                             """%(state),conn)
     conn.close()
     return res
+
+def county_df_many(state,countys):
+    conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
+    res=pd.read_sql("""
+                        SELECT * FROM counties WHERE 
+                        state="%s" AND
+                        county IN (%s)
+                        """%(state, '"'+'","'.join(countys)+'"'),conn)
+    conn.close()
+    return res
+           
+def state_df_many(states):
+    conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
+    res=pd.read_sql("""
+                        SELECT * FROM states WHERE state in (%s)
+                            """%('"'+'","'.join(states)+'"'),conn)
+    conn.close()
+    return res
                        
 def state_counties(state):
     conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)

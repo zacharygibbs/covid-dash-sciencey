@@ -92,12 +92,14 @@ def get_new_data():
         for oldcsv in files:
             os.remove(os.path.join(basepath and basepath or '', oldcsv))
     return df, dfstate
-time.sleep(random.randint(5,60))
+wait_time = random.randint(5,60)
+print('my node waiting %i seconds' %(wait_time))
+time.sleep(wait_time)
 get_new_data_sql()
 
-def get_chartdata1(state,county,stat='cases', popnorm=False):
-    df = county_df(state, county)
-    dfstate = state_df(state)
+def get_chartdata1(state,county, df_in, stat='cases', popnorm=False):
+    df = df_in#county_df(state, county)
+    dfstate = df_in#state_df(state)
     if county:
         x = df.date[(df['state'] == state) & (df['county']==county)]
         if popnorm:
@@ -118,13 +120,15 @@ def get_chartdata1(state,county,stat='cases', popnorm=False):
 def get_chartdata(states,counties,stat='cases',popnorm=False):
     output = []
     #can do either states only or counties within a single state, but not comparing county from one state to county to another; you'd need more rigorous restrictions on input
-    
+    if not counties:
+        df = state_df_many(states)
     for state in states:
         if counties:
+            df = county_df_many(state, counties)
             for county in counties:
-                output.append(get_chartdata1(state,county,stat, popnorm))
+                output.append(get_chartdata1(state,county, df[df['county']==county], stat, popnorm))
         else:
-            output.append(get_chartdata1(state,None,stat, popnorm))
+            output.append(get_chartdata1(state,None, df[df['state']==state], stat, popnorm))
     if len(states)>0:
         return list(zip(*output))
     else:
