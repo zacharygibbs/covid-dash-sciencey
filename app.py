@@ -15,6 +15,7 @@ from sqlite3_pull import *
 import logging
 import threading
 import time
+import random
 
 global todaystring
 
@@ -91,6 +92,7 @@ def get_new_data():
         for oldcsv in files:
             os.remove(os.path.join(basepath and basepath or '', oldcsv))
     return df, dfstate
+time.sleep(random.randint(5,60))
 get_new_data_sql()
 
 def get_chartdata1(state,county,stat='cases', popnorm=False):
