@@ -43,11 +43,14 @@ def db_exists_and_has_tables():
         conn = sqlite3.connect('covid_data.db',check_same_thread=True,timeout=3000)
         cur = conn.cursor()
         cur.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;")
-        tables = list(zip(*cur.fetchall()))[0]
-        b = 'states' in tables
-        c = 'counties' in tables
-        conn.close()
-        return b and c
+        try:
+            tables = list(zip(*cur.fetchall()))[0]
+            b = 'states' in tables
+            c = 'counties' in tables
+            conn.close()
+            return b and c
+        except:
+            return False
     else:
         return False
 
