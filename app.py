@@ -53,6 +53,9 @@ def get_new_data_sql():
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
         print('Initiating new data pull source_new:  %s'%(todaystring_now))
+        wait_time = random.randint(5,30)
+        print('my node waiting %i seconds' %(wait_time))
+        time.sleep(wait_time)
         update_table_data()
         todaystring = last_updated()
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
@@ -101,9 +104,7 @@ def get_new_data():
         for oldcsv in files:
             os.remove(os.path.join(basepath and basepath or '', oldcsv))
     return df, dfstate
-wait_time = random.randint(5,30)
-print('my node waiting %i seconds' %(wait_time))
-time.sleep(wait_time)
+
 get_new_data_sql()
 
 def get_chartdata1(state,county, df_in, stat='cases', popnorm=False):
