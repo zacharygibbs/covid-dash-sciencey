@@ -53,7 +53,7 @@ def get_new_data_sql():
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
         print('Initiating new data pull source_new:  %s'%(todaystring_now))
-        wait_time = random.randint(5,30)
+        wait_time = random.randint(2,6)
         print('my node waiting %i seconds' %(wait_time))
         time.sleep(wait_time)
         update_table_data()
