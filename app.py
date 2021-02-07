@@ -58,7 +58,7 @@ def get_new_data_sql():
     else:
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
-        print('Initiating new data pull source_new:  %s'%(todaystring_now))
+        
         wait_time = 1 + 4 * random.random()
         print('my node waiting %i seconds' %(wait_time))
         
@@ -72,11 +72,14 @@ def get_new_data_sql():
                     writing = True
         f.close()
         if writing:
-            time.sleep(10)#wait until other instance downloads
+            print('waiting 15 sec on my node')
+            time.sleep(15)#wait until other instance downloads
+            
         else:
             f = open('file.txt','w')
             f.write('writing')
             f.close()
+            print('Initiating new data pull source_new:  %s'%(todaystring_now))
             update_table_data()
             todaystring = last_updated()
             today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
