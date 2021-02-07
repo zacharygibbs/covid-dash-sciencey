@@ -65,7 +65,7 @@ def get_new_data_sql():
         time.sleep(wait_time)
         writing=False
         f = open('file.txt','r')
-        f_lines = f.readlines()
+        flines = f.readlines()
         if len(flines)>0:
             for fline in flines:
                 if fline == 'writing':
