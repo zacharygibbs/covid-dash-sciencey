@@ -72,7 +72,7 @@ def get_new_data_sql():
                     writing = True
         f.close()
         if writing:
-            time.sleep(5)#wait until other instance downloads
+            time.sleep(10)#wait until other instance downloads
         else:
             f = open('file.txt','w')
             f.write('writing')
