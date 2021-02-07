@@ -74,7 +74,7 @@ def get_new_data_sql():
         if writing:
             print('waiting 15 sec on my node')
             time.sleep(15)#wait until other instance downloads
-            
+            todaystring = last_updated()
         else:
             f = open('file.txt','w')
             f.write('writing')
