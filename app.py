@@ -46,21 +46,44 @@ def get_new_data_sql():
             today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
             todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
             print('Initiating new data pull source:  %s'%(todaystring_now))
+            f = open('file.txt','w')
+            f.write('writing')
+            f.close()
             update_table_data()
+            f = open('file.txt','w')
+            f.close()
+            
             
         return None
     else:
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
         print('Initiating new data pull source_new:  %s'%(todaystring_now))
-        wait_time = random.randint(2,6)
+        wait_time = 1 + 4 * random.random()
         print('my node waiting %i seconds' %(wait_time))
+        
         time.sleep(wait_time)
-        update_table_data()
-        todaystring = last_updated()
-        today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
-        todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
-        pass
+        writing=False
+        f = open('file.txt','r')
+        f_lines = f.readlines()
+        if len(flines)>0:
+            for fline in flines:
+                if fline == 'writing':
+                    writing = True
+        f.close()
+        if writing:
+            time.sleep(5)#wait until other instance downloads
+        else:
+            f = open('file.txt','w')
+            f.write('writing')
+            f.close()
+            update_table_data()
+            todaystring = last_updated()
+            today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
+            todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
+            f = open('file.txt','w')
+            f.close()
+            
         return None
 
 
@@ -430,6 +453,6 @@ app.css.append_css({
 
 
 if __name__ == '__main__':
-    #app.run_server(debug=True,port=8080,host='0.0.0.0')
-    app.run_server(debug=False)
+    app.run_server(debug=True,port=8080,host='0.0.0.0')
+    #app.run_server(debug=False)
 
