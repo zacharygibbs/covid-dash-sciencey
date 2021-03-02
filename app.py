@@ -30,8 +30,8 @@ global todaystring, df_counties
 df_counties = pd.DataFrame({'state':['ca', 'ac']})
 county_pop_data = pd.read_csv('county_pops_census2019.csv')
 
-data_pull_freq_mins_source = 60 
-data_pull_freq_mins_local = 10
+data_pull_freq_mins_source = 60*8 
+data_pull_freq_mins_local = 60
 
 def get_new_data_sql():
     global todaystring
@@ -59,7 +59,7 @@ def get_new_data_sql():
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
         
-        wait_time = 1 + 4 * random.random()
+        wait_time = 1 + 10 * random.random()
         print('my node waiting %i seconds' %(wait_time))
         
         time.sleep(wait_time)
