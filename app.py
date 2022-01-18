@@ -52,14 +52,12 @@ def get_new_data_sql():
             update_table_data()
             f = open('file.txt','w')
             f.close()
-            
-            
         return None
     else:
         today_now = datetime.datetime.now().astimezone(pytz.timezone('US/Central'))
         todaystring_now = today_now.strftime("%m-%d-%Y %H:%M:%S")
         
-        wait_time = 1 + 10 * random.random()
+        wait_time = 5 + 10 * random.random()
         print('my node waiting %i seconds' %(wait_time))
         
         time.sleep(wait_time)
@@ -96,14 +94,10 @@ def get_new_data():
     todaystring = todaystring + 'Central'
     #loadtime = datetime.now()
     #loadtime = "%s Central Time"%(loadtime.astimezone(pytz.timezone('US/Central')).isoformat())
-
     basepath = None
-
     ## handle file download
     files = [i for i in os.listdir(basepath) if (('.csv' in i) and ('counties' in i))]
-
     todaystring_short = today.strftime("%m-%d-%Y %H")
-    
     if np.any(['us-counties' + todaystring_short in file for file in files]):
         print('Loading todays county data from memory')
         todaystring = files[['us-counties' +todaystring_short in file for file in files].index(True)]
